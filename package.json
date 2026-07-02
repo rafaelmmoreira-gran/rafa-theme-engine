@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@aplica/aplica-theme-engine": "^3.23.2"
+  }
+}
