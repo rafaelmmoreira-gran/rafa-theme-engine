@@ -10,6 +10,17 @@
           "styles/elevation_styles.json"
         ]
       }
+    },
+    "monteiro_ocean": {
+      "includePrimitives": false,
+      "foundation": {
+        "brand": "engine",
+        "files": [
+          "default.json",
+          "styles/typography_styles.json",
+          "styles/elevation_styles.json"
+        ]
+      }
     }
   },
   "global": {
