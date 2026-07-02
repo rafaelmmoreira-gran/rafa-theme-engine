@@ -1,5 +1,25 @@
 {
   "tokenSetOrder": [
-    "global"
+    "foundation/engine/default",
+    "foundation/engine/styles/typography_styles",
+    "foundation/engine/styles/elevation_styles",
+    "semantic/default",
+    "surface/positive",
+    "surface/negative",
+    "mode/light",
+    "mode/dark",
+    "brand/aplica_blue_sky/_grayscale",
+    "brand/aplica_blue_sky/_brand",
+    "brand/aplica_blue_sky/_typography",
+    "brand/aplica_blue_sky/_borders",
+    "brand/aplica_blue_sky/_gradients",
+    "brand/monteiro_ocean/_grayscale",
+    "brand/monteiro_ocean/_brand",
+    "brand/monteiro_ocean/_typography",
+    "brand/monteiro_ocean/_borders",
+    "brand/monteiro_ocean/_gradients",
+    "dimension/minor",
+    "dimension/normal",
+    "dimension/major"
   ]
 }
