@@ -1,0 +1,240 @@
+{
+  "themes": {
+    "aplica_blue_sky": {
+      "includePrimitives": false,
+      "foundation": {
+        "brand": "engine",
+        "files": [
+          "default.json",
+          "styles/typography_styles.json",
+          "styles/elevation_styles.json"
+        ]
+      }
+    }
+  },
+  "global": {
+    "modes": [
+      "light",
+      "dark"
+    ],
+    "surfaces": [
+      "positive",
+      "negative"
+    ],
+    "surfacePolarity": true,
+    "gradients": true,
+    "_comment_gradient": "gradientConfig defines canonical structure; all themes get same gradient fields. Per-theme configs only allow raw overrides (overrides.*), not gradient structure.",
+    "gradientConfig": {
+      "degrees": {
+        "horizontal": 180,
+        "vertical": 270,
+        "toBottom": 90,
+        "diagonalLeft": -45,
+        "diagonalRight": 45,
+        "diagonalBrand": 135,
+        "diagonalBrandAlt": 141
+      },
+      "steps": [
+        0,
+        10,
+        20,
+        25,
+        30,
+        40,
+        50,
+        60,
+        70,
+        75,
+        80,
+        90,
+        100
+      ],
+      "defaultComposites": {
+        "first": {
+          "angleKey": "horizontal",
+          "stops": [
+            {
+              "position": 0,
+              "colorKey": "lowest"
+            },
+            {
+              "position": 100,
+              "colorKey": "default"
+            }
+          ]
+        },
+        "second": {
+          "angleKey": "horizontal",
+          "stops": [
+            {
+              "position": 0,
+              "colorKey": "lowest"
+            },
+            {
+              "position": 100,
+              "colorKey": "default"
+            }
+          ]
+        },
+        "third": {
+          "angleKey": "horizontal",
+          "stops": [
+            {
+              "position": 0,
+              "colorKey": "lowest"
+            },
+            {
+              "position": 100,
+              "colorKey": "default"
+            }
+          ]
+        }
+      }
+    },
+    "dimension": {
+      "config": "dimension.config.mjs",
+      "defaultVariant": "normal",
+      "variants": [
+        "minor",
+        "normal",
+        "major"
+      ],
+      "scaleMultiplierFactor": 4,
+      "params": {
+        "minor": {
+          "layoutUnit": 4,
+          "scaleMultiplierFactor": 3
+        },
+        "normal": {
+          "layoutUnit": 4,
+          "scaleMultiplierFactor": 4
+        },
+        "major": {
+          "layoutUnit": 8,
+          "scaleMultiplierFactor": 3
+        }
+      },
+      "semantic": {
+        "zero": {
+          "value": "{dimension.scale.0}",
+          "description": "Zero spacing - removes all spacing, used for resetting margins/padding"
+        },
+        "pico": {
+          "value": "{dimension.scale.6}",
+          "description": "Minimal spacing - hairline gaps, subtle borders, pixel-perfect adjustments"
+        },
+        "nano": {
+          "value": "{dimension.scale.12}",
+          "description": "Nano spacing - minimal gaps, tight icon spacing, subtle borders"
+        },
+        "micro": {
+          "value": "{dimension.scale.25}",
+          "description": "Micro spacing - compact padding, small gaps between related elements"
+        },
+        "extraSmall": {
+          "value": "{dimension.scale.50}",
+          "description": "Extra small spacing - standard padding for compact components"
+        },
+        "small": {
+          "value": "{dimension.scale.75}",
+          "description": "Small spacing - comfortable padding for small components, form field spacing"
+        },
+        "medium": {
+          "value": "{dimension.scale.100}",
+          "description": "Medium spacing - default padding for most components, standard gap between elements"
+        },
+        "large": {
+          "value": "{dimension.scale.125}",
+          "description": "Large spacing - generous padding, section spacing, larger gaps"
+        },
+        "extraLarge": {
+          "value": "{dimension.scale.150}",
+          "description": "Extra large spacing - substantial padding, major section gaps, card spacing"
+        },
+        "mega": {
+          "value": "{dimension.scale.175}",
+          "description": "Mega spacing - large component padding, significant section separation"
+        },
+        "giga": {
+          "value": "{dimension.scale.275}",
+          "description": "Giga spacing - generous padding, section spacing"
+        },
+        "tera": {
+          "value": "{dimension.scale.450}",
+          "description": "Tera spacing - enormous padding, hero section spacing, major page divisions"
+        },
+        "peta": {
+          "value": "{dimension.scale.725}",
+          "description": "Peta spacing - maximum layout spacing, full-page hero sections, extreme layouts"
+        }
+      },
+      "semanticByVariant": {},
+      "outputUnit": {
+        "css": "rem",
+        "default": "px"
+      },
+      "baseFontSize": 16,
+      "pxOnlyTokenTypes": [
+        "number"
+      ],
+      "pxOnlyTokenPaths": [
+        "semantic.depth.spread"
+      ],
+      "remConvertibleTypes": [
+        "dimension",
+        "sizing",
+        "spacing",
+        "fontSizes",
+        "lineHeights",
+        "borderRadius"
+      ]
+    },
+    "typography": {
+      "customLineHeight": true,
+      "lineHeightSemantics": {
+        "tight": 100,
+        "close": 120,
+        "regular": 140,
+        "wild": 180
+      },
+      "fontSizeScaleRatio": 1.2,
+      "fontSizeScale": [
+        "nano",
+        "micro",
+        "extraSmall",
+        "small",
+        "medium",
+        "large",
+        "extraLarge",
+        "mega",
+        "giga",
+        "tera",
+        "peta",
+        "exa",
+        "zetta"
+      ]
+    },
+    "opacityScale": {
+      "transparent": 0,
+      "superTransparent": 10,
+      "semiTranslucid": 20,
+      "translucid": 50,
+      "superTranslucid": 80,
+      "semiOpaque": 90,
+      "opaque": 100
+    },
+    "brandFiles": {
+      "default": [
+        "_primitive_theme.json",
+        "_grayscale.json",
+        "_brand.json",
+        "_typography.json",
+        "_borders.json",
+        "_gradients.json"
+      ]
+    }
+  },
+  "schemas": {
+    "comment": "Prepared for future schema features"
+  }
+}

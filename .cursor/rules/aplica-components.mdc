@@ -1,0 +1,44 @@
+---
+description: Build UI components with Aplica tokens — CSS variable patterns, dark mode, portal setup, archetypes
+globs: ["*.{js,jsx,ts,tsx,css,scss,html,vue,svelte}"]
+alwaysApply: false
+---
+
+# Aplica Components — Implementation Guide
+
+## Before writing code
+1. Read `dist/css/<brand>-light.css` — exact CSS variable names for this workspace. Never invent them.
+2. Check `aplica-theme-engine.config.mjs` for `surfacePolarity` — if `'positive'`, negative surface tokens don't exist.
+
+## Token contract (per state)
+Every function/feedback state generates: `background`, `border`, `txtOn` (text on bg), `txt` (standalone text, if enabled).
+Use `txtOn` for text placed on a colored background.
+
+## Key patterns
+- **Button states**: `..normal.bg` → `..action.bg` (hover) → `..active.bg` (pressed) + `disabled` uses opacity token
+- **Ghost variant**: text color from `ghostNormalTxtOnStrategy` config — `'txt'` = body, `'surface'` = page bg
+- **Feedback**: `feedback.success.default.*` (filled) vs `feedback.success.secondary.*` (subtle)
+- **Typography**: use generated composite styles — never decompose font/size/weight/line-height manually
+- **Elevation**: use generated shadow tokens — never write raw `box-shadow` values
+
+## Dark mode
+Apply dark class to root element. Load both `dist/css/<brand>-light.css` and `dist/css/<brand>-dark.css`.
+Check dark CSS file for exact selector (`.dark`, `.theme-dark`, etc.).
+
+## Portal pattern (Base UI, Radix, Floating UI)
+Apply theme class to `document.body`, not just app root. Portals render outside component tree and lose CSS scope.
+Dark class stays on `document.documentElement`; theme class on `document.body`.
+
+## Archetypes
+Button, Input/Select, Dialog/Modal, Badge, Card, Tabs, Tooltip.
+Dialogs and Tooltips require portal pattern if using headless libraries.
+
+## Hard rules
+- Never hardcode `px`, `hex`, `rgba()`, raw shadows, or radii.
+- Never invent variable names — derive from `dist/css/` only.
+- Never assume `negative` surface exists without checking config.
+
+## References
+- `docs/context/engineering-guide.md` — dark mode, portal, build pipeline, JSON tokens
+- `docs/context/theme-engine-playbook.md` → "Workspace outputs"
+- `dist/css/<brand>-light.css` — actual variable names (read first)

@@ -1,0 +1,49 @@
+---
+description: Aplica Theme Engine expert — token concepts, color vocabulary, dimension system, config keys, architecture, diagnostics
+globs: ["themes.config.json", "aplica-theme-engine.config.mjs", "config/**/*.mjs", "config/**/*.json"]
+alwaysApply: false
+---
+
+# Aplica Theme Engine — Expert Guide
+
+Detect the user's level from vocabulary before answering:
+- **N1 (Product Designer)**: designer terms, "what is a token", "dark mode", "brand color" → explain concepts, no code
+- **N2 (System Designer)**: "modeResolution", "dilution", "OKLCH", "config", "pipeline" → explain architecture + all config keys
+- **N3 (Engineer)**: "CSS variable", "dist/", "React", "component code" → for implementation, apply `aplica-components` rule; use this rule for concepts + config
+
+## Color — 4 categories
+- **Brand**: identity colors (5 levels: first–fifth), not interactive
+- **Interface Function**: interactive elements — normal → action (hover) → active (pressed)
+- **Interface Feedback**: system status — info/success/warning/danger, default + secondary variants
+- **Foundation**: ambient surfaces, neutral text, structural borders
+
+## Architecture (N2)
+Brand config → Mode derivation → Surface variants → Semantic tokens → Foundation → `dist/`
+Never edit `data/` or `dist/` — always config + `theme-engine build`.
+
+## Config keys (N2)
+- `modeResolution` — dark palette derivation algorithm (lightness/chroma)
+- `darkModeChroma` — saturation multiplier for dark palette (0–1; low = washed out)
+- `dilution` — interaction state desaturation (method, target lightness/chroma, canvasAware)
+- `txtOnStrategy` — WCAG text color on colored surfaces (`auto`, `AA`, `AAA`)
+- `ghostNormalTxtOnStrategy` — ghost button text: `'txt'` = body color, `'surface'` = page bg
+- `baseAdaptation` — base surface adaptation across quadrants
+- `overrides.interaction` — direct state color overrides (use sparingly)
+- `overrides.grayscale` — override the neutral/grayscale scale
+- `surfacePolarity` — `'positive'` disables negative surface outputs
+- `generation.colorText` — enables `txt` tokens per group (feedback, interfaceFunction, product)
+- `interfaceFunctionPaletteLevels` — number of interaction palette steps
+- `structure.borderWidth` / `structure.borderRadius` — expose border width/radius scales as CSS vars; add to `config/foundations/<brand>.config.mjs → structure` with `items` only (no engine changes)
+- `structure.<anyKey>` with `{ semanticPath, type, items }` — generic alias: exposes any semantic token as a foundation CSS var without engine changes. `semanticPath` = base path in semantic layer, `type` = token type, `items` = names. Prerequisite: path must exist in `data/semantic/default.json`
+
+## Diagnostics
+- Hover too similar → adjust `dilution.target` lightness separation
+- Dark mode washed out → increase `darkModeChroma` toward 1.0
+- Text unreadable on colored surface → check `txtOnStrategy` + `generation.colorText`
+- Ghost text wrong → toggle `ghostNormalTxtOnStrategy` between `'txt'` and `'surface'`
+- Colors not updating → run `theme-engine build` (never edit `data/`/`dist/` directly)
+
+## References
+- `docs/context/theme-engine-playbook.md` — full config reference, architecture, CLI
+- `docs/context/token-concepts.md` — N1 token concepts
+- `docs/context/engineering-guide.md` — N3 implementation patterns
