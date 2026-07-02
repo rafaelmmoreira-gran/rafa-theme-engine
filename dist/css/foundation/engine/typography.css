@@ -1,0 +1,75 @@
+/**
+ * Typography Styles - CSS Classes
+ * Do not edit directly, this file was auto-generated.
+ */
+
+.typography-theme_engine-heading-title_1 {
+  font-family: var(--semantic-typography-fontFamilies-main);
+  font-weight: var(--semantic-typography-fontWeights-main-semibold-normal);
+  font-size: var(--semantic-typography-fontSizes-large);
+  line-height: var(--semantic-typography-lineHeights-close-large);
+  letter-spacing: var(--semantic-typography-letterSpacings-regular);
+  text-transform: var(--semantic-typography-textCase-normal);
+  text-decoration: var(--semantic-typography-textDecoration-default);
+}
+
+.typography-theme_engine-content-body {
+  font-family: var(--semantic-typography-fontFamilies-content);
+  font-weight: var(--semantic-typography-fontWeights-content-regular-normal);
+  font-size: var(--semantic-typography-fontSizes-medium);
+  line-height: var(--semantic-typography-lineHeights-regular-medium);
+  letter-spacing: var(--semantic-typography-letterSpacings-regular);
+  text-transform: var(--semantic-typography-textCase-normal);
+  text-decoration: var(--semantic-typography-textDecoration-default);
+}
+
+.typography-theme_engine-display-hero {
+  font-family: var(--semantic-typography-fontFamilies-display);
+  font-weight: var(--semantic-typography-fontWeights-display-bold-normal);
+  font-size: var(--semantic-typography-fontSizes-tera);
+  line-height: var(--semantic-typography-lineHeights-close-tera);
+  letter-spacing: var(--semantic-typography-letterSpacings-regular);
+  text-transform: var(--semantic-typography-textCase-normal);
+  text-decoration: var(--semantic-typography-textDecoration-default);
+}
+
+.typography-theme_engine-hierarchy-eyebrow {
+  font-family: var(--semantic-typography-fontFamilies-main);
+  font-weight: var(--semantic-typography-fontWeights-main-semibold-normal);
+  font-size: var(--semantic-typography-fontSizes-small);
+  line-height: var(--semantic-typography-lineHeights-tight-small);
+  letter-spacing: var(--semantic-typography-letterSpacings-regular);
+  text-transform: var(--semantic-typography-textCase-normal);
+  text-decoration: var(--semantic-typography-textDecoration-default);
+}
+
+.typography-theme_engine-action-primary {
+  font-family: var(--semantic-typography-fontFamilies-main);
+  font-weight: var(--semantic-typography-fontWeights-main-semibold-normal);
+  font-size: var(--semantic-typography-fontSizes-medium);
+  line-height: var(--semantic-typography-lineHeights-tight-medium);
+  letter-spacing: var(--semantic-typography-letterSpacings-regular);
+  text-transform: var(--semantic-typography-textCase-normal);
+  text-decoration: var(--semantic-typography-textDecoration-default);
+}
+
+.typography-theme_engine-link-default {
+  font-family: var(--semantic-typography-fontFamilies-main);
+  font-weight: var(--semantic-typography-fontWeights-main-regular-normal);
+  font-size: var(--semantic-typography-fontSizes-medium);
+  line-height: var(--semantic-typography-lineHeights-tight-medium);
+  letter-spacing: var(--semantic-typography-letterSpacings-regular);
+  text-transform: var(--semantic-typography-textCase-normal);
+  text-decoration: var(--semantic-typography-textDecoration-underline);
+}
+
+.typography-theme_engine-code-inline {
+  font-family: var(--semantic-typography-fontFamilies-code);
+  font-weight: var(--semantic-typography-fontWeights-code-regular-normal);
+  font-size: var(--semantic-typography-fontSizes-small);
+  line-height: var(--semantic-typography-lineHeights-tight-small);
+  letter-spacing: var(--semantic-typography-letterSpacings-regular);
+  text-transform: var(--semantic-typography-textCase-normal);
+  text-decoration: var(--semantic-typography-textDecoration-default);
+}
+

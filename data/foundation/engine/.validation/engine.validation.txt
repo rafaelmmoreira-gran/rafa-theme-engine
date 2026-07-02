@@ -1,0 +1,18 @@
+======================================================================
+  FOUNDATION VALIDATION REPORT
+======================================================================
+
+Foundation: /Users/rafaelmonteiro/Workspace/Gran/Projetos/Aplica Consultoria/monteiro-theme-engine/data/foundation/engine/default.json
+Semantic:   /Users/rafaelmonteiro/Workspace/Gran/Projetos/Aplica Consultoria/monteiro-theme-engine/data/semantic/default.json
+Timestamp:  2026-07-02T20:12:42.802Z
+
+----------------------------------------------------------------------
+  SUMMARY
+----------------------------------------------------------------------
+
+Status:           [VALID]
+Total References: 149
+Valid:            149
+Invalid:          0
+
+======================================================================

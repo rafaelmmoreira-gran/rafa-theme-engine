@@ -1,0 +1,161 @@
+[
+  {
+    "id": "3524d6bda6c7abb60a854fc12fcab7d98676e521",
+    "name": "default",
+    "$figmaStyleReferences": {},
+    "figmaVariableReferences": {},
+    "selectedTokenSets": {
+      "foundation/engine/default": "enabled",
+      "foundation/engine/styles/typography_styles": "enabled",
+      "foundation/engine/styles/elevation_styles": "enabled"
+    },
+    "$figmaCollectionId": "",
+    "$figmaModeId": "",
+    "$figmaVariableReferences": {},
+    "group": "foundation"
+  },
+  {
+    "id": "0758915f9eafb57f998ac23bb224e15dac983ade",
+    "name": "default",
+    "$figmaStyleReferences": {},
+    "figmaVariableReferences": {},
+    "selectedTokenSets": {
+      "semantic/default": "enabled",
+      "surface/positive": "source",
+      "dimension/normal": "source"
+    },
+    "$figmaCollectionId": "",
+    "$figmaModeId": "",
+    "$figmaVariableReferences": {},
+    "group": "semantic"
+  },
+  {
+    "id": "098b137d0f504d00c0a914c84b68b92cc695f79b",
+    "name": "positive",
+    "$figmaStyleReferences": {},
+    "figmaVariableReferences": {},
+    "selectedTokenSets": {
+      "surface/positive": "enabled",
+      "mode/light": "source"
+    },
+    "$figmaCollectionId": "",
+    "$figmaModeId": "",
+    "$figmaVariableReferences": {},
+    "group": "surface"
+  },
+  {
+    "id": "913d33f005348a83f2ff7ad97550382f0c6028f6",
+    "name": "negative",
+    "$figmaStyleReferences": {},
+    "figmaVariableReferences": {},
+    "selectedTokenSets": {
+      "surface/negative": "enabled",
+      "mode/light": "source"
+    },
+    "$figmaCollectionId": "",
+    "$figmaModeId": "",
+    "$figmaVariableReferences": {},
+    "group": "surface"
+  },
+  {
+    "id": "017b1bcd839be39be6a063aa10bc120529a9a437",
+    "name": "light",
+    "$figmaStyleReferences": {},
+    "figmaVariableReferences": {},
+    "selectedTokenSets": {
+      "mode/light": "enabled"
+    },
+    "$figmaCollectionId": "",
+    "$figmaModeId": "",
+    "$figmaVariableReferences": {},
+    "group": "mode"
+  },
+  {
+    "id": "5dabddb051a13b6e216f2281a1412cf27cb20fc5",
+    "name": "dark",
+    "$figmaStyleReferences": {},
+    "figmaVariableReferences": {},
+    "selectedTokenSets": {
+      "mode/dark": "enabled"
+    },
+    "$figmaCollectionId": "",
+    "$figmaModeId": "",
+    "$figmaVariableReferences": {},
+    "group": "mode"
+  },
+  {
+    "id": "8987291f46e2136b1056dd59610d0415461b22a1",
+    "name": "minor",
+    "$figmaStyleReferences": {},
+    "figmaVariableReferences": {},
+    "selectedTokenSets": {
+      "dimension/minor": "enabled"
+    },
+    "$figmaCollectionId": "",
+    "$figmaModeId": "",
+    "$figmaVariableReferences": {},
+    "group": "dimension"
+  },
+  {
+    "id": "71fbb28a3b5cd9b2aa39bdf8147a18d5343d2362",
+    "name": "normal",
+    "$figmaStyleReferences": {},
+    "figmaVariableReferences": {},
+    "selectedTokenSets": {
+      "dimension/normal": "enabled"
+    },
+    "$figmaCollectionId": "",
+    "$figmaModeId": "",
+    "$figmaVariableReferences": {},
+    "group": "dimension"
+  },
+  {
+    "id": "ac89f884d0699180c9d02b65818c639fb6e6e891",
+    "name": "major",
+    "$figmaStyleReferences": {},
+    "figmaVariableReferences": {},
+    "selectedTokenSets": {
+      "dimension/major": "enabled"
+    },
+    "$figmaCollectionId": "",
+    "$figmaModeId": "",
+    "$figmaVariableReferences": {},
+    "group": "dimension"
+  },
+  {
+    "id": "f30b457569d182d43c2ff580cf41d284e952b8ae",
+    "name": "aplica_blue_sky",
+    "$figmaStyleReferences": {},
+    "figmaVariableReferences": {},
+    "selectedTokenSets": {
+      "brand/aplica_blue_sky/_grayscale": "enabled",
+      "brand/aplica_blue_sky/_brand": "enabled",
+      "brand/aplica_blue_sky/_typography": "enabled",
+      "brand/aplica_blue_sky/_borders": "enabled",
+      "brand/aplica_blue_sky/_gradients": "enabled",
+      "dimension/normal": "source"
+    },
+    "$figmaCollectionId": "",
+    "$figmaModeId": "",
+    "$figmaVariableReferences": {},
+    "group": "brand"
+  },
+  {
+    "id": "e9fa05dc0e2b07b5f7c28276cd9883a071763879",
+    "name": "monteiro_ocean",
+    "$figmaStyleReferences": {},
+    "figmaVariableReferences": {},
+    "selectedTokenSets": {
+      "brand/monteiro_ocean/_grayscale": "enabled",
+      "brand/monteiro_ocean/_brand": "enabled",
+      "brand/monteiro_ocean/_typography": "enabled",
+      "brand/monteiro_ocean/_borders": "enabled",
+      "brand/monteiro_ocean/_gradients": "enabled",
+      "dimension/normal": "source"
+    },
+    "$figmaCollectionId": "",
+    "$figmaModeId": "",
+    "$figmaVariableReferences": {},
+    "group": "brand"
+  }
+]

@@ -1,0 +1,2920 @@
+{
+  "semantic": {
+    "color": {
+      "brand": {
+        "branding": {
+          "first": {
+            "lowest": {
+              "background": {
+                "$type": "color",
+                "$value": "{surface.color.brand.branding.first.lowest.background}",
+                "$description": "Primary brand background. Use for lowest intensity brand surfaces and borders."
+              },
+              "txtOn": {
+                "$type": "color",
+                "$value": "{surface.color.brand.branding.first.lowest.txtOn}",
+                "$description": "Primary brand text on. Use for lowest intensity brand surfaces and borders."
+              },
+              "border": {
+                "$type": "color",
+                "$value": "{surface.color.brand.branding.first.lowest.border}",
+                "$description": "Primary brand border. Use for lowest intensity brand surfaces and borders."
+              }
+            },
+            "low": {
+              "background": {
+                "$type": "color",
+                "$value": "{surface.color.brand.branding.first.low.background}",
+                "$description": "Primary brand background. Use for low brand surfaces and borders."
+              },
+              "txtOn": {
+                "$type": "color",
+                "$value": "{surface.color.brand.branding.first.low.txtOn}",
+                "$description": "Primary brand text on. Use for low brand surfaces and borders."
+              },
+              "border": {
+                "$type": "color",
+                "$value": "{surface.color.brand.branding.first.low.border}",
+                "$description": "Primary brand border. Use for low brand surfaces and borders."
+              }
+            },
+            "default": {
+              "background": {
+                "$type": "color",
+                "$value": "{surface.color.brand.branding.first.default.background}",
+                "$description": "Primary brand background. Use for default intensity brand surfaces and borders."
+              },
+              "txtOn": {
+                "$type": "color",
+                "$value": "{surface.color.brand.branding.first.default.txtOn}",
+                "$description": "Primary brand text on. Use for default intensity brand surfaces and borders."
+              },
+              "border": {
+                "$type": "color",
+                "$value": "{surface.color.brand.branding.first.default.border}",
+                "$description": "Primary brand border. Use for default intensity brand surfaces and borders."
+              }
+            },
+            "high": {
+              "background": {
+                "$type": "color",
+                "$value": "{surface.color.brand.branding.first.high.background}",
+                "$description": "Primary brand background. Use for high brand surfaces and borders."
+              },
+              "txtOn": {
+                "$type": "color",
+                "$value": "{surface.color.brand.branding.first.high.txtOn}",
+                "$description": "Primary brand text on. Use for high brand surfaces and borders."
+              },
+              "border": {
+                "$type": "color",
+                "$value": "{surface.color.brand.branding.first.high.border}",
+                "$description": "Primary brand border. Use for high brand surfaces and borders."
+              }
+            },
+            "highest": {
+              "background": {
+                "$type": "color",
+                "$value": "{surface.color.brand.branding.first.highest.background}",
+                "$description": "Primary brand background. Use for highest intensity brand surfaces and borders."
+              },
+              "txtOn": {
+                "$type": "color",
+                "$value": "{surface.color.brand.branding.first.highest.txtOn}",
+                "$description": "Primary brand text on. Use for highest intensity brand surfaces and borders."
+              },
+              "border": {
+                "$type": "color",
+                "$value": "{surface.color.brand.branding.first.highest.border}",
+                "$description": "Primary brand border. Use for highest intensity brand surfaces and borders."
+              }
+            }
+          },
+          "second": {
+            "lowest": {
+              "background": {
+                "$type": "color",
+                "$value": "{surface.color.brand.branding.second.lowest.background}",
+                "$description": "Secondary brand background. Use for lowest intensity brand surfaces and borders."
+              },
+              "txtOn": {
+                "$type": "color",
+                "$value": "{surface.color.brand.branding.second.lowest.txtOn}",
+                "$description": "Secondary brand text on. Use for lowest intensity brand surfaces and borders."
+              },
+              "border": {
+                "$type": "color",
+                "$value": "{surface.color.brand.branding.second.lowest.border}",
+                "$description": "Secondary brand border. Use for lowest intensity brand surfaces and borders."
+              }
+            },
+            "low": {
+              "background": {
+                "$type": "color",
+                "$value": "{surface.color.brand.branding.second.low.background}",
+                "$description": "Secondary brand background. Use for low brand surfaces and borders."
+              },
+              "txtOn": {
+                "$type": "color",
+                "$value": "{surface.color.brand.branding.second.low.txtOn}",
+                "$description": "Secondary brand text on. Use for low brand surfaces and borders."
+              },
+              "border": {
+                "$type": "color",
+                "$value": "{surface.color.brand.branding.second.low.border}",
+                "$description": "Secondary brand border. Use for low brand surfaces and borders."
+              }
+            },
+            "default": {
+              "background": {
+                "$type": "color",
+                "$value": "{surface.color.brand.branding.second.default.background}",
+                "$description": "Secondary brand background. Use for default intensity brand surfaces and borders."
+              },
+              "txtOn": {
+                "$type": "color",
+                "$value": "{surface.color.brand.branding.second.default.txtOn}",
+                "$description": "Secondary brand text on. Use for default intensity brand surfaces and borders."
+              },
+              "border": {
+                "$type": "color",
+                "$value": "{surface.color.brand.branding.second.default.border}",
+                "$description": "Secondary brand border. Use for default intensity brand surfaces and borders."
+              }
+            },
+            "high": {
+              "background": {
+                "$type": "color",
+                "$value": "{surface.color.brand.branding.second.high.background}",
+                "$description": "Secondary brand background. Use for high brand surfaces and borders."
+              },
+              "txtOn": {
+                "$type": "color",
+                "$value": "{surface.color.brand.branding.second.high.txtOn}",
+                "$description": "Secondary brand text on. Use for high brand surfaces and borders."
+              },
+              "border": {
+                "$type": "color",
+                "$value": "{surface.color.brand.branding.second.high.border}",
+                "$description": "Secondary brand border. Use for high brand surfaces and borders."
+              }
+            },
+            "highest": {
+              "background": {
+                "$type": "color",
+                "$value": "{surface.color.brand.branding.second.highest.background}",
+                "$description": "Secondary brand background. Use for highest intensity brand surfaces and borders."
+              },
+              "txtOn": {
+                "$type": "color",
+                "$value": "{surface.color.brand.branding.second.highest.txtOn}",
+                "$description": "Secondary brand text on. Use for highest intensity brand surfaces and borders."
+              },
+              "border": {
+                "$type": "color",
+                "$value": "{surface.color.brand.branding.second.highest.border}",
+                "$description": "Secondary brand border. Use for highest intensity brand surfaces and borders."
+              }
+            }
+          },
+          "third": {
+            "lowest": {
+              "background": {
+                "$type": "color",
+                "$value": "{surface.color.brand.branding.third.lowest.background}",
+                "$description": "Tertiary brand background. Use for lowest intensity brand surfaces and borders."
+              },
+              "txtOn": {
+                "$type": "color",
+                "$value": "{surface.color.brand.branding.third.lowest.txtOn}",
+                "$description": "Tertiary brand text on. Use for lowest intensity brand surfaces and borders."
+              },
+              "border": {
+                "$type": "color",
+                "$value": "{surface.color.brand.branding.third.lowest.border}",
+                "$description": "Tertiary brand border. Use for lowest intensity brand surfaces and borders."
+              }
+            },
+            "low": {
+              "background": {
+                "$type": "color",
+                "$value": "{surface.color.brand.branding.third.low.background}",
+                "$description": "Tertiary brand background. Use for low brand surfaces and borders."
+              },
+              "txtOn": {
+                "$type": "color",
+                "$value": "{surface.color.brand.branding.third.low.txtOn}",
+                "$description": "Tertiary brand text on. Use for low brand surfaces and borders."
+              },
+              "border": {
+                "$type": "color",
+                "$value": "{surface.color.brand.branding.third.low.border}",
+                "$description": "Tertiary brand border. Use for low brand surfaces and borders."
+              }
+            },
+            "default": {
+              "background": {
+                "$type": "color",
+                "$value": "{surface.color.brand.branding.third.default.background}",
+                "$description": "Tertiary brand background. Use for default intensity brand surfaces and borders."
+              },
+              "txtOn": {
+                "$type": "color",
+                "$value": "{surface.color.brand.branding.third.default.txtOn}",
+                "$description": "Tertiary brand text on. Use for default intensity brand surfaces and borders."
+              },
+              "border": {
+                "$type": "color",
+                "$value": "{surface.color.brand.branding.third.default.border}",
+                "$description": "Tertiary brand border. Use for default intensity brand surfaces and borders."
+              }
+            },
+            "high": {
+              "background": {
+                "$type": "color",
+                "$value": "{surface.color.brand.branding.third.high.background}",
+                "$description": "Tertiary brand background. Use for high brand surfaces and borders."
+              },
+              "txtOn": {
+                "$type": "color",
+                "$value": "{surface.color.brand.branding.third.high.txtOn}",
+                "$description": "Tertiary brand text on. Use for high brand surfaces and borders."
+              },
+              "border": {
+                "$type": "color",
+                "$value": "{surface.color.brand.branding.third.high.border}",
+                "$description": "Tertiary brand border. Use for high brand surfaces and borders."
+              }
+            },
+            "highest": {
+              "background": {
+                "$type": "color",
+                "$value": "{surface.color.brand.branding.third.highest.background}",
+                "$description": "Tertiary brand background. Use for highest intensity brand surfaces and borders."
+              },
+              "txtOn": {
+                "$type": "color",
+                "$value": "{surface.color.brand.branding.third.highest.txtOn}",
+                "$description": "Tertiary brand text on. Use for highest intensity brand surfaces and borders."
+              },
+              "border": {
+                "$type": "color",
+                "$value": "{surface.color.brand.branding.third.highest.border}",
+                "$description": "Tertiary brand border. Use for highest intensity brand surfaces and borders."
+              }
+            }
+          }
+        },
+        "ambient": {
+          "contrast": {
+            "base": {
+              "positive": {
+                "background": {
+                  "$type": "color",
+                  "$value": "{surface.color.brand.ambient.contrast.base.positive.background}",
+                  "$description": "Base contrast background. Use for main canvas and surface contrast (positive/negative)."
+                },
+                "txtOn": {
+                  "$type": "color",
+                  "$value": "{surface.color.brand.ambient.contrast.base.positive.txtOn}",
+                  "$description": "Base contrast text on. Use for main canvas and surface contrast (positive/negative)."
+                },
+                "border": {
+                  "$type": "color",
+                  "$value": "{surface.color.brand.ambient.contrast.base.positive.border}",
+                  "$description": "Base contrast border. Use for main canvas and surface contrast (positive/negative)."
+                }
+              },
+              "negative": {
+                "background": {
+                  "$type": "color",
+                  "$value": "{surface.color.brand.ambient.contrast.base.negative.background}",
+                  "$description": "Base contrast background. Use for main canvas and surface contrast (positive/negative)."
+                },
+                "txtOn": {
+                  "$type": "color",
+                  "$value": "{surface.color.brand.ambient.contrast.base.negative.txtOn}",
+                  "$description": "Base contrast text on. Use for main canvas and surface contrast (positive/negative)."
+                },
+                "border": {
+                  "$type": "color",
+                  "$value": "{surface.color.brand.ambient.contrast.base.negative.border}",
+                  "$description": "Base contrast border. Use for main canvas and surface contrast (positive/negative)."
+                }
+              }
+            },
+            "deep": {
+              "positive": {
+                "background": {
+                  "$type": "color",
+                  "$value": "{surface.color.brand.ambient.contrast.deep.positive.background}",
+                  "$description": "Deep contrast background. Use for main canvas and surface contrast (positive/negative)."
+                },
+                "txtOn": {
+                  "$type": "color",
+                  "$value": "{surface.color.brand.ambient.contrast.deep.positive.txtOn}",
+                  "$description": "Deep contrast text on. Use for main canvas and surface contrast (positive/negative)."
+                },
+                "border": {
+                  "$type": "color",
+                  "$value": "{surface.color.brand.ambient.contrast.deep.positive.border}",
+                  "$description": "Deep contrast border. Use for main canvas and surface contrast (positive/negative)."
+                }
+              },
+              "negative": {
+                "background": {
+                  "$type": "color",
+                  "$value": "{surface.color.brand.ambient.contrast.deep.negative.background}",
+                  "$description": "Deep contrast background. Use for main canvas and surface contrast (positive/negative)."
+                },
+                "txtOn": {
+                  "$type": "color",
+                  "$value": "{surface.color.brand.ambient.contrast.deep.negative.txtOn}",
+                  "$description": "Deep contrast text on. Use for main canvas and surface contrast (positive/negative)."
+                },
+                "border": {
+                  "$type": "color",
+                  "$value": "{surface.color.brand.ambient.contrast.deep.negative.border}",
+                  "$description": "Deep contrast border. Use for main canvas and surface contrast (positive/negative)."
+                }
+              }
+            }
+          },
+          "neutral": {
+            "lowest": {
+              "background": {
+                "$type": "color",
+                "$value": "{surface.color.brand.ambient.neutral.lowest.background}"
+              },
+              "txtOn": {
+                "$type": "color",
+                "$value": "{surface.color.brand.ambient.neutral.lowest.txtOn}"
+              },
+              "border": {
+                "$type": "color",
+                "$value": "{surface.color.brand.ambient.neutral.lowest.border}"
+              }
+            },
+            "lower": {
+              "background": {
+                "$type": "color",
+                "$value": "{surface.color.brand.ambient.neutral.lower.background}"
+              },
+              "txtOn": {
+                "$type": "color",
+                "$value": "{surface.color.brand.ambient.neutral.lower.txtOn}"
+              },
+              "border": {
+                "$type": "color",
+                "$value": "{surface.color.brand.ambient.neutral.lower.border}"
+              }
+            },
+            "low": {
+              "background": {
+                "$type": "color",
+                "$value": "{surface.color.brand.ambient.neutral.low.background}"
+              },
+              "txtOn": {
+                "$type": "color",
+                "$value": "{surface.color.brand.ambient.neutral.low.txtOn}"
+              },
+              "border": {
+                "$type": "color",
+                "$value": "{surface.color.brand.ambient.neutral.low.border}"
+              }
+            },
+            "mid": {
+              "background": {
+                "$type": "color",
+                "$value": "{surface.color.brand.ambient.neutral.mid.background}"
+              },
+              "txtOn": {
+                "$type": "color",
+                "$value": "{surface.color.brand.ambient.neutral.mid.txtOn}"
+              },
+              "border": {
+                "$type": "color",
+                "$value": "{surface.color.brand.ambient.neutral.mid.border}"
+              }
+            },
+            "high": {
+              "background": {
+                "$type": "color",
+                "$value": "{surface.color.brand.ambient.neutral.high.background}"
+              },
+              "txtOn": {
+                "$type": "color",
+                "$value": "{surface.color.brand.ambient.neutral.high.txtOn}"
+              },
+              "border": {
+                "$type": "color",
+                "$value": "{surface.color.brand.ambient.neutral.high.border}"
+              }
+            },
+            "higher": {
+              "background": {
+                "$type": "color",
+                "$value": "{surface.color.brand.ambient.neutral.higher.background}"
+              },
+              "txtOn": {
+                "$type": "color",
+                "$value": "{surface.color.brand.ambient.neutral.higher.txtOn}"
+              },
+              "border": {
+                "$type": "color",
+                "$value": "{surface.color.brand.ambient.neutral.higher.border}"
+              }
+            },
+            "highest": {
+              "background": {
+                "$type": "color",
+                "$value": "{surface.color.brand.ambient.neutral.highest.background}"
+              },
+              "txtOn": {
+                "$type": "color",
+                "$value": "{surface.color.brand.ambient.neutral.highest.txtOn}"
+              },
+              "border": {
+                "$type": "color",
+                "$value": "{surface.color.brand.ambient.neutral.highest.border}"
+              }
+            }
+          },
+          "grayscale": {
+            "lowest": {
+              "background": {
+                "$type": "color",
+                "$value": "{surface.color.brand.ambient.grayscale.lowest.background}"
+              },
+              "txtOn": {
+                "$type": "color",
+                "$value": "{surface.color.brand.ambient.grayscale.lowest.txtOn}"
+              },
+              "border": {
+                "$type": "color",
+                "$value": "{surface.color.brand.ambient.grayscale.lowest.border}"
+              }
+            },
+            "lower": {
+              "background": {
+                "$type": "color",
+                "$value": "{surface.color.brand.ambient.grayscale.lower.background}"
+              },
+              "txtOn": {
+                "$type": "color",
+                "$value": "{surface.color.brand.ambient.grayscale.lower.txtOn}"
+              },
+              "border": {
+                "$type": "color",
+                "$value": "{surface.color.brand.ambient.grayscale.lower.border}"
+              }
+            },
+            "low": {
+              "background": {
+                "$type": "color",
+                "$value": "{surface.color.brand.ambient.grayscale.low.background}"
+              },
+              "txtOn": {
+                "$type": "color",
+                "$value": "{surface.color.brand.ambient.grayscale.low.txtOn}"
+              },
+              "border": {
+                "$type": "color",
+                "$value": "{surface.color.brand.ambient.grayscale.low.border}"
+              }
+            },
+            "mid": {
+              "background": {
+                "$type": "color",
+                "$value": "{surface.color.brand.ambient.grayscale.mid.background}"
+              },
+              "txtOn": {
+                "$type": "color",
+                "$value": "{surface.color.brand.ambient.grayscale.mid.txtOn}"
+              },
+              "border": {
+                "$type": "color",
+                "$value": "{surface.color.brand.ambient.grayscale.mid.border}"
+              }
+            },
+            "high": {
+              "background": {
+                "$type": "color",
+                "$value": "{surface.color.brand.ambient.grayscale.high.background}"
+              },
+              "txtOn": {
+                "$type": "color",
+                "$value": "{surface.color.brand.ambient.grayscale.high.txtOn}"
+              },
+              "border": {
+                "$type": "color",
+                "$value": "{surface.color.brand.ambient.grayscale.high.border}"
+              }
+            },
+            "higher": {
+              "background": {
+                "$type": "color",
+                "$value": "{surface.color.brand.ambient.grayscale.higher.background}"
+              },
+              "txtOn": {
+                "$type": "color",
+                "$value": "{surface.color.brand.ambient.grayscale.higher.txtOn}"
+              },
+              "border": {
+                "$type": "color",
+                "$value": "{surface.color.brand.ambient.grayscale.higher.border}"
+              }
+            },
+            "highest": {
+              "background": {
+                "$type": "color",
+                "$value": "{surface.color.brand.ambient.grayscale.highest.background}"
+              },
+              "txtOn": {
+                "$type": "color",
+                "$value": "{surface.color.brand.ambient.grayscale.highest.txtOn}"
+              },
+              "border": {
+                "$type": "color",
+                "$value": "{surface.color.brand.ambient.grayscale.highest.border}"
+              }
+            }
+          }
+        }
+      },
+      "interface": {
+        "function": {
+          "primary": {
+            "normal": {
+              "background": {
+                "$type": "color",
+                "$value": "{surface.color.interface.function.primary.normal.background}",
+                "$description": "Primary function (default state). background. Use for CTAs and interactive elements."
+              },
+              "txtOn": {
+                "$type": "color",
+                "$value": "{surface.color.interface.function.primary.normal.txtOn}",
+                "$description": "Primary function (default state). text on. Use for CTAs and interactive elements."
+              },
+              "border": {
+                "$type": "color",
+                "$value": "{surface.color.interface.function.primary.normal.border}",
+                "$description": "Primary function (default state). border. Use for CTAs and interactive elements."
+              }
+            },
+            "action": {
+              "background": {
+                "$type": "color",
+                "$value": "{surface.color.interface.function.primary.action.background}",
+                "$description": "Primary function (hover / pressed). background. Use for CTAs and interactive elements."
+              },
+              "txtOn": {
+                "$type": "color",
+                "$value": "{surface.color.interface.function.primary.action.txtOn}",
+                "$description": "Primary function (hover / pressed). text on. Use for CTAs and interactive elements."
+              },
+              "border": {
+                "$type": "color",
+                "$value": "{surface.color.interface.function.primary.action.border}",
+                "$description": "Primary function (hover / pressed). border. Use for CTAs and interactive elements."
+              }
+            },
+            "active": {
+              "background": {
+                "$type": "color",
+                "$value": "{surface.color.interface.function.primary.active.background}",
+                "$description": "Primary function (pressed / selected (darker than action)). background. Use for CTAs and interactive elements."
+              },
+              "txtOn": {
+                "$type": "color",
+                "$value": "{surface.color.interface.function.primary.active.txtOn}",
+                "$description": "Primary function (pressed / selected (darker than action)). text on. Use for CTAs and interactive elements."
+              },
+              "border": {
+                "$type": "color",
+                "$value": "{surface.color.interface.function.primary.active.border}",
+                "$description": "Primary function (pressed / selected (darker than action)). border. Use for CTAs and interactive elements."
+              }
+            },
+            "focus": {
+              "background": {
+                "$type": "color",
+                "$value": "{surface.color.interface.function.primary.focus.background}",
+                "$description": "Primary function (keyboard focus / focus indicator). background. Use for CTAs and interactive elements."
+              },
+              "txtOn": {
+                "$type": "color",
+                "$value": "{surface.color.interface.function.primary.focus.txtOn}",
+                "$description": "Primary function (keyboard focus / focus indicator). text on. Use for CTAs and interactive elements."
+              },
+              "border": {
+                "$type": "color",
+                "$value": "{surface.color.interface.function.primary.focus.border}",
+                "$description": "Primary function (keyboard focus / focus indicator). border. Use for CTAs and interactive elements."
+              }
+            }
+          },
+          "secondary": {
+            "normal": {
+              "background": {
+                "$type": "color",
+                "$value": "{surface.color.interface.function.secondary.normal.background}",
+                "$description": "Secondary function (default state). background. Use for CTAs and interactive elements."
+              },
+              "txtOn": {
+                "$type": "color",
+                "$value": "{surface.color.interface.function.secondary.normal.txtOn}",
+                "$description": "Secondary function (default state). text on. Use for CTAs and interactive elements."
+              },
+              "border": {
+                "$type": "color",
+                "$value": "{surface.color.interface.function.secondary.normal.border}",
+                "$description": "Secondary function (default state). border. Use for CTAs and interactive elements."
+              }
+            },
+            "action": {
+              "background": {
+                "$type": "color",
+                "$value": "{surface.color.interface.function.secondary.action.background}",
+                "$description": "Secondary function (hover / pressed). background. Use for CTAs and interactive elements."
+              },
+              "txtOn": {
+                "$type": "color",
+                "$value": "{surface.color.interface.function.secondary.action.txtOn}",
+                "$description": "Secondary function (hover / pressed). text on. Use for CTAs and interactive elements."
+              },
+              "border": {
+                "$type": "color",
+                "$value": "{surface.color.interface.function.secondary.action.border}",
+                "$description": "Secondary function (hover / pressed). border. Use for CTAs and interactive elements."
+              }
+            },
+            "active": {
+              "background": {
+                "$type": "color",
+                "$value": "{surface.color.interface.function.secondary.active.background}",
+                "$description": "Secondary function (pressed / selected (darker than action)). background. Use for CTAs and interactive elements."
+              },
+              "txtOn": {
+                "$type": "color",
+                "$value": "{surface.color.interface.function.secondary.active.txtOn}",
+                "$description": "Secondary function (pressed / selected (darker than action)). text on. Use for CTAs and interactive elements."
+              },
+              "border": {
+                "$type": "color",
+                "$value": "{surface.color.interface.function.secondary.active.border}",
+                "$description": "Secondary function (pressed / selected (darker than action)). border. Use for CTAs and interactive elements."
+              }
+            },
+            "focus": {
+              "background": {
+                "$type": "color",
+                "$value": "{surface.color.interface.function.secondary.focus.background}",
+                "$description": "Secondary function (keyboard focus / focus indicator). background. Use for CTAs and interactive elements."
+              },
+              "txtOn": {
+                "$type": "color",
+                "$value": "{surface.color.interface.function.secondary.focus.txtOn}",
+                "$description": "Secondary function (keyboard focus / focus indicator). text on. Use for CTAs and interactive elements."
+              },
+              "border": {
+                "$type": "color",
+                "$value": "{surface.color.interface.function.secondary.focus.border}",
+                "$description": "Secondary function (keyboard focus / focus indicator). border. Use for CTAs and interactive elements."
+              }
+            }
+          },
+          "link": {
+            "normal": {
+              "background": {
+                "$type": "color",
+                "$value": "{surface.color.interface.function.link.normal.background}",
+                "$description": "Link (default state). background. Use for CTAs and interactive elements."
+              },
+              "txtOn": {
+                "$type": "color",
+                "$value": "{surface.color.interface.function.link.normal.txtOn}",
+                "$description": "Link (default state). text on. Use for CTAs and interactive elements."
+              },
+              "border": {
+                "$type": "color",
+                "$value": "{surface.color.interface.function.link.normal.border}",
+                "$description": "Link (default state). border. Use for CTAs and interactive elements."
+              }
+            },
+            "action": {
+              "background": {
+                "$type": "color",
+                "$value": "{surface.color.interface.function.link.action.background}",
+                "$description": "Link (hover / pressed). background. Use for CTAs and interactive elements."
+              },
+              "txtOn": {
+                "$type": "color",
+                "$value": "{surface.color.interface.function.link.action.txtOn}",
+                "$description": "Link (hover / pressed). text on. Use for CTAs and interactive elements."
+              },
+              "border": {
+                "$type": "color",
+                "$value": "{surface.color.interface.function.link.action.border}",
+                "$description": "Link (hover / pressed). border. Use for CTAs and interactive elements."
+              }
+            },
+            "active": {
+              "background": {
+                "$type": "color",
+                "$value": "{surface.color.interface.function.link.active.background}",
+                "$description": "Link (pressed / selected (darker than action)). background. Use for CTAs and interactive elements."
+              },
+              "txtOn": {
+                "$type": "color",
+                "$value": "{surface.color.interface.function.link.active.txtOn}",
+                "$description": "Link (pressed / selected (darker than action)). text on. Use for CTAs and interactive elements."
+              },
+              "border": {
+                "$type": "color",
+                "$value": "{surface.color.interface.function.link.active.border}",
+                "$description": "Link (pressed / selected (darker than action)). border. Use for CTAs and interactive elements."
+              }
+            },
+            "focus": {
+              "background": {
+                "$type": "color",
+                "$value": "{surface.color.interface.function.link.focus.background}",
+                "$description": "Link (keyboard focus / focus indicator). background. Use for CTAs and interactive elements."
+              },
+              "txtOn": {
+                "$type": "color",
+                "$value": "{surface.color.interface.function.link.focus.txtOn}",
+                "$description": "Link (keyboard focus / focus indicator). text on. Use for CTAs and interactive elements."
+              },
+              "border": {
+                "$type": "color",
+                "$value": "{surface.color.interface.function.link.focus.border}",
+                "$description": "Link (keyboard focus / focus indicator). border. Use for CTAs and interactive elements."
+              }
+            }
+          },
+          "disabled": {
+            "normal": {
+              "background": {
+                "$type": "color",
+                "$value": "{surface.color.interface.function.disabled.normal.background}",
+                "$description": "Disabled control. background. Use for disabled buttons and controls."
+              },
+              "txtOn": {
+                "$type": "color",
+                "$value": "{surface.color.interface.function.disabled.normal.txtOn}",
+                "$description": "Disabled control. text on. Use for disabled buttons and controls."
+              },
+              "border": {
+                "$type": "color",
+                "$value": "{surface.color.interface.function.disabled.normal.border}",
+                "$description": "Disabled control. border. Use for disabled buttons and controls."
+              }
+            }
+          }
+        },
+        "feedback": {
+          "info": {
+            "default": {
+              "normal": {
+                "background": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.info.default.normal.background}",
+                  "$description": "Info feedback background. Use for default feedback states and messages."
+                },
+                "txtOn": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.info.default.normal.txtOn}",
+                  "$description": "Info feedback text on. Use for default feedback states and messages."
+                },
+                "border": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.info.default.normal.border}",
+                  "$description": "Info feedback border. Use for default feedback states and messages."
+                }
+              },
+              "action": {
+                "background": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.info.default.action.background}",
+                  "$description": "Info feedback background. Use for default feedback states and messages."
+                },
+                "txtOn": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.info.default.action.txtOn}",
+                  "$description": "Info feedback text on. Use for default feedback states and messages."
+                },
+                "border": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.info.default.action.border}",
+                  "$description": "Info feedback border. Use for default feedback states and messages."
+                }
+              },
+              "active": {
+                "background": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.info.default.active.background}",
+                  "$description": "Info feedback background. Use for default feedback states and messages."
+                },
+                "txtOn": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.info.default.active.txtOn}",
+                  "$description": "Info feedback text on. Use for default feedback states and messages."
+                },
+                "border": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.info.default.active.border}",
+                  "$description": "Info feedback border. Use for default feedback states and messages."
+                }
+              },
+              "focus": {
+                "background": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.info.default.focus.background}",
+                  "$description": "Info feedback background. Use for default feedback states and messages."
+                },
+                "txtOn": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.info.default.focus.txtOn}",
+                  "$description": "Info feedback text on. Use for default feedback states and messages."
+                },
+                "border": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.info.default.focus.border}",
+                  "$description": "Info feedback border. Use for default feedback states and messages."
+                }
+              }
+            },
+            "secondary": {
+              "normal": {
+                "background": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.info.secondary.normal.background}",
+                  "$description": "Info feedback background. Use for secondary variant feedback states and messages."
+                },
+                "txtOn": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.info.secondary.normal.txtOn}",
+                  "$description": "Info feedback text on. Use for secondary variant feedback states and messages."
+                },
+                "border": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.info.secondary.normal.border}",
+                  "$description": "Info feedback border. Use for secondary variant feedback states and messages."
+                }
+              },
+              "action": {
+                "background": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.info.secondary.action.background}",
+                  "$description": "Info feedback background. Use for secondary variant feedback states and messages."
+                },
+                "txtOn": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.info.secondary.action.txtOn}",
+                  "$description": "Info feedback text on. Use for secondary variant feedback states and messages."
+                },
+                "border": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.info.secondary.action.border}",
+                  "$description": "Info feedback border. Use for secondary variant feedback states and messages."
+                }
+              },
+              "active": {
+                "background": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.info.secondary.active.background}",
+                  "$description": "Info feedback background. Use for secondary variant feedback states and messages."
+                },
+                "txtOn": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.info.secondary.active.txtOn}",
+                  "$description": "Info feedback text on. Use for secondary variant feedback states and messages."
+                },
+                "border": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.info.secondary.active.border}",
+                  "$description": "Info feedback border. Use for secondary variant feedback states and messages."
+                }
+              },
+              "focus": {
+                "background": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.info.secondary.focus.background}",
+                  "$description": "Info feedback background. Use for secondary variant feedback states and messages."
+                },
+                "txtOn": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.info.secondary.focus.txtOn}",
+                  "$description": "Info feedback text on. Use for secondary variant feedback states and messages."
+                },
+                "border": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.info.secondary.focus.border}",
+                  "$description": "Info feedback border. Use for secondary variant feedback states and messages."
+                }
+              }
+            }
+          },
+          "success": {
+            "default": {
+              "normal": {
+                "background": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.success.default.normal.background}",
+                  "$description": "Success feedback background. Use for default feedback states and messages."
+                },
+                "txtOn": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.success.default.normal.txtOn}",
+                  "$description": "Success feedback text on. Use for default feedback states and messages."
+                },
+                "border": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.success.default.normal.border}",
+                  "$description": "Success feedback border. Use for default feedback states and messages."
+                }
+              },
+              "action": {
+                "background": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.success.default.action.background}",
+                  "$description": "Success feedback background. Use for default feedback states and messages."
+                },
+                "txtOn": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.success.default.action.txtOn}",
+                  "$description": "Success feedback text on. Use for default feedback states and messages."
+                },
+                "border": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.success.default.action.border}",
+                  "$description": "Success feedback border. Use for default feedback states and messages."
+                }
+              },
+              "active": {
+                "background": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.success.default.active.background}",
+                  "$description": "Success feedback background. Use for default feedback states and messages."
+                },
+                "txtOn": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.success.default.active.txtOn}",
+                  "$description": "Success feedback text on. Use for default feedback states and messages."
+                },
+                "border": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.success.default.active.border}",
+                  "$description": "Success feedback border. Use for default feedback states and messages."
+                }
+              },
+              "focus": {
+                "background": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.success.default.focus.background}",
+                  "$description": "Success feedback background. Use for default feedback states and messages."
+                },
+                "txtOn": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.success.default.focus.txtOn}",
+                  "$description": "Success feedback text on. Use for default feedback states and messages."
+                },
+                "border": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.success.default.focus.border}",
+                  "$description": "Success feedback border. Use for default feedback states and messages."
+                }
+              }
+            },
+            "secondary": {
+              "normal": {
+                "background": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.success.secondary.normal.background}",
+                  "$description": "Success feedback background. Use for secondary variant feedback states and messages."
+                },
+                "txtOn": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.success.secondary.normal.txtOn}",
+                  "$description": "Success feedback text on. Use for secondary variant feedback states and messages."
+                },
+                "border": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.success.secondary.normal.border}",
+                  "$description": "Success feedback border. Use for secondary variant feedback states and messages."
+                }
+              },
+              "action": {
+                "background": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.success.secondary.action.background}",
+                  "$description": "Success feedback background. Use for secondary variant feedback states and messages."
+                },
+                "txtOn": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.success.secondary.action.txtOn}",
+                  "$description": "Success feedback text on. Use for secondary variant feedback states and messages."
+                },
+                "border": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.success.secondary.action.border}",
+                  "$description": "Success feedback border. Use for secondary variant feedback states and messages."
+                }
+              },
+              "active": {
+                "background": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.success.secondary.active.background}",
+                  "$description": "Success feedback background. Use for secondary variant feedback states and messages."
+                },
+                "txtOn": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.success.secondary.active.txtOn}",
+                  "$description": "Success feedback text on. Use for secondary variant feedback states and messages."
+                },
+                "border": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.success.secondary.active.border}",
+                  "$description": "Success feedback border. Use for secondary variant feedback states and messages."
+                }
+              },
+              "focus": {
+                "background": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.success.secondary.focus.background}",
+                  "$description": "Success feedback background. Use for secondary variant feedback states and messages."
+                },
+                "txtOn": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.success.secondary.focus.txtOn}",
+                  "$description": "Success feedback text on. Use for secondary variant feedback states and messages."
+                },
+                "border": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.success.secondary.focus.border}",
+                  "$description": "Success feedback border. Use for secondary variant feedback states and messages."
+                }
+              }
+            }
+          },
+          "warning": {
+            "default": {
+              "normal": {
+                "background": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.warning.default.normal.background}",
+                  "$description": "Warning feedback background. Use for default feedback states and messages."
+                },
+                "txtOn": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.warning.default.normal.txtOn}",
+                  "$description": "Warning feedback text on. Use for default feedback states and messages."
+                },
+                "border": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.warning.default.normal.border}",
+                  "$description": "Warning feedback border. Use for default feedback states and messages."
+                }
+              },
+              "action": {
+                "background": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.warning.default.action.background}",
+                  "$description": "Warning feedback background. Use for default feedback states and messages."
+                },
+                "txtOn": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.warning.default.action.txtOn}",
+                  "$description": "Warning feedback text on. Use for default feedback states and messages."
+                },
+                "border": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.warning.default.action.border}",
+                  "$description": "Warning feedback border. Use for default feedback states and messages."
+                }
+              },
+              "active": {
+                "background": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.warning.default.active.background}",
+                  "$description": "Warning feedback background. Use for default feedback states and messages."
+                },
+                "txtOn": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.warning.default.active.txtOn}",
+                  "$description": "Warning feedback text on. Use for default feedback states and messages."
+                },
+                "border": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.warning.default.active.border}",
+                  "$description": "Warning feedback border. Use for default feedback states and messages."
+                }
+              },
+              "focus": {
+                "background": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.warning.default.focus.background}",
+                  "$description": "Warning feedback background. Use for default feedback states and messages."
+                },
+                "txtOn": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.warning.default.focus.txtOn}",
+                  "$description": "Warning feedback text on. Use for default feedback states and messages."
+                },
+                "border": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.warning.default.focus.border}",
+                  "$description": "Warning feedback border. Use for default feedback states and messages."
+                }
+              }
+            },
+            "secondary": {
+              "normal": {
+                "background": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.warning.secondary.normal.background}",
+                  "$description": "Warning feedback background. Use for secondary variant feedback states and messages."
+                },
+                "txtOn": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.warning.secondary.normal.txtOn}",
+                  "$description": "Warning feedback text on. Use for secondary variant feedback states and messages."
+                },
+                "border": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.warning.secondary.normal.border}",
+                  "$description": "Warning feedback border. Use for secondary variant feedback states and messages."
+                }
+              },
+              "action": {
+                "background": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.warning.secondary.action.background}",
+                  "$description": "Warning feedback background. Use for secondary variant feedback states and messages."
+                },
+                "txtOn": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.warning.secondary.action.txtOn}",
+                  "$description": "Warning feedback text on. Use for secondary variant feedback states and messages."
+                },
+                "border": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.warning.secondary.action.border}",
+                  "$description": "Warning feedback border. Use for secondary variant feedback states and messages."
+                }
+              },
+              "active": {
+                "background": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.warning.secondary.active.background}",
+                  "$description": "Warning feedback background. Use for secondary variant feedback states and messages."
+                },
+                "txtOn": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.warning.secondary.active.txtOn}",
+                  "$description": "Warning feedback text on. Use for secondary variant feedback states and messages."
+                },
+                "border": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.warning.secondary.active.border}",
+                  "$description": "Warning feedback border. Use for secondary variant feedback states and messages."
+                }
+              },
+              "focus": {
+                "background": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.warning.secondary.focus.background}",
+                  "$description": "Warning feedback background. Use for secondary variant feedback states and messages."
+                },
+                "txtOn": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.warning.secondary.focus.txtOn}",
+                  "$description": "Warning feedback text on. Use for secondary variant feedback states and messages."
+                },
+                "border": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.warning.secondary.focus.border}",
+                  "$description": "Warning feedback border. Use for secondary variant feedback states and messages."
+                }
+              }
+            }
+          },
+          "danger": {
+            "default": {
+              "normal": {
+                "background": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.danger.default.normal.background}",
+                  "$description": "Danger feedback background. Use for default feedback states and messages."
+                },
+                "txtOn": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.danger.default.normal.txtOn}",
+                  "$description": "Danger feedback text on. Use for default feedback states and messages."
+                },
+                "border": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.danger.default.normal.border}",
+                  "$description": "Danger feedback border. Use for default feedback states and messages."
+                }
+              },
+              "action": {
+                "background": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.danger.default.action.background}",
+                  "$description": "Danger feedback background. Use for default feedback states and messages."
+                },
+                "txtOn": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.danger.default.action.txtOn}",
+                  "$description": "Danger feedback text on. Use for default feedback states and messages."
+                },
+                "border": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.danger.default.action.border}",
+                  "$description": "Danger feedback border. Use for default feedback states and messages."
+                }
+              },
+              "active": {
+                "background": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.danger.default.active.background}",
+                  "$description": "Danger feedback background. Use for default feedback states and messages."
+                },
+                "txtOn": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.danger.default.active.txtOn}",
+                  "$description": "Danger feedback text on. Use for default feedback states and messages."
+                },
+                "border": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.danger.default.active.border}",
+                  "$description": "Danger feedback border. Use for default feedback states and messages."
+                }
+              },
+              "focus": {
+                "background": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.danger.default.focus.background}",
+                  "$description": "Danger feedback background. Use for default feedback states and messages."
+                },
+                "txtOn": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.danger.default.focus.txtOn}",
+                  "$description": "Danger feedback text on. Use for default feedback states and messages."
+                },
+                "border": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.danger.default.focus.border}",
+                  "$description": "Danger feedback border. Use for default feedback states and messages."
+                }
+              }
+            },
+            "secondary": {
+              "normal": {
+                "background": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.danger.secondary.normal.background}",
+                  "$description": "Danger feedback background. Use for secondary variant feedback states and messages."
+                },
+                "txtOn": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.danger.secondary.normal.txtOn}",
+                  "$description": "Danger feedback text on. Use for secondary variant feedback states and messages."
+                },
+                "border": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.danger.secondary.normal.border}",
+                  "$description": "Danger feedback border. Use for secondary variant feedback states and messages."
+                }
+              },
+              "action": {
+                "background": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.danger.secondary.action.background}",
+                  "$description": "Danger feedback background. Use for secondary variant feedback states and messages."
+                },
+                "txtOn": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.danger.secondary.action.txtOn}",
+                  "$description": "Danger feedback text on. Use for secondary variant feedback states and messages."
+                },
+                "border": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.danger.secondary.action.border}",
+                  "$description": "Danger feedback border. Use for secondary variant feedback states and messages."
+                }
+              },
+              "active": {
+                "background": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.danger.secondary.active.background}",
+                  "$description": "Danger feedback background. Use for secondary variant feedback states and messages."
+                },
+                "txtOn": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.danger.secondary.active.txtOn}",
+                  "$description": "Danger feedback text on. Use for secondary variant feedback states and messages."
+                },
+                "border": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.danger.secondary.active.border}",
+                  "$description": "Danger feedback border. Use for secondary variant feedback states and messages."
+                }
+              },
+              "focus": {
+                "background": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.danger.secondary.focus.background}",
+                  "$description": "Danger feedback background. Use for secondary variant feedback states and messages."
+                },
+                "txtOn": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.danger.secondary.focus.txtOn}",
+                  "$description": "Danger feedback text on. Use for secondary variant feedback states and messages."
+                },
+                "border": {
+                  "$type": "color",
+                  "$value": "{surface.color.interface.feedback.danger.secondary.focus.border}",
+                  "$description": "Danger feedback border. Use for secondary variant feedback states and messages."
+                }
+              }
+            }
+          }
+        }
+      },
+      "text": {
+        "title": {
+          "$type": "color",
+          "$value": "{surface.color.text.title}",
+          "$description": "Title text color. Use for headings and primary text."
+        },
+        "body": {
+          "$type": "color",
+          "$value": "{surface.color.text.body}",
+          "$description": "Body text color. Use for main content."
+        },
+        "highlight": {
+          "$type": "color",
+          "$value": "{surface.color.text.highlight}",
+          "$description": "Highlight text color. Use for emphasized content."
+        },
+        "muted": {
+          "$type": "color",
+          "$value": "{surface.color.text.muted}",
+          "$description": "Muted text color. Use for secondary or disabled text."
+        },
+        "label": {
+          "$type": "color",
+          "$value": "{surface.color.text.label}",
+          "$description": "Label text color. Use for form labels and captions."
+        },
+        "info_default": {
+          "$type": "color",
+          "$value": "{surface.color.text.info_default}",
+          "$description": "Info feedback text. Use for informational message text."
+        },
+        "info_secondary": {
+          "$type": "color",
+          "$value": "{surface.color.text.info_secondary}",
+          "$description": "Info feedback text (secondary variant)."
+        },
+        "success_default": {
+          "$type": "color",
+          "$value": "{surface.color.text.success_default}",
+          "$description": "Success feedback text. Use for success message text."
+        },
+        "success_secondary": {
+          "$type": "color",
+          "$value": "{surface.color.text.success_secondary}",
+          "$description": "Success feedback text (secondary variant)."
+        },
+        "warning_default": {
+          "$type": "color",
+          "$value": "{surface.color.text.warning_default}",
+          "$description": "Warning feedback text. Use for warning message text."
+        },
+        "warning_secondary": {
+          "$type": "color",
+          "$value": "{surface.color.text.warning_secondary}",
+          "$description": "Warning feedback text (secondary variant)."
+        },
+        "danger_default": {
+          "$type": "color",
+          "$value": "{surface.color.text.danger_default}",
+          "$description": "Danger feedback text. Use for error and destructive message text."
+        },
+        "danger_secondary": {
+          "$type": "color",
+          "$value": "{surface.color.text.danger_secondary}",
+          "$description": "Danger feedback text (secondary variant)."
+        }
+      },
+      "product": {
+        "promo": {
+          "default": {
+            "lowest": {
+              "background": {
+                "$type": "color",
+                "$value": "{surface.color.product.promo.default.lowest.background}",
+                "$description": "Promo product background. Use for product-specific default surfaces."
+              },
+              "txtOn": {
+                "$type": "color",
+                "$value": "{surface.color.product.promo.default.lowest.txtOn}",
+                "$description": "Promo product text on. Use for product-specific default surfaces."
+              },
+              "border": {
+                "$type": "color",
+                "$value": "{surface.color.product.promo.default.lowest.border}",
+                "$description": "Promo product border. Use for product-specific default surfaces."
+              }
+            },
+            "low": {
+              "background": {
+                "$type": "color",
+                "$value": "{surface.color.product.promo.default.low.background}",
+                "$description": "Promo product background. Use for product-specific default surfaces."
+              },
+              "txtOn": {
+                "$type": "color",
+                "$value": "{surface.color.product.promo.default.low.txtOn}",
+                "$description": "Promo product text on. Use for product-specific default surfaces."
+              },
+              "border": {
+                "$type": "color",
+                "$value": "{surface.color.product.promo.default.low.border}",
+                "$description": "Promo product border. Use for product-specific default surfaces."
+              }
+            },
+            "default": {
+              "background": {
+                "$type": "color",
+                "$value": "{surface.color.product.promo.default.default.background}",
+                "$description": "Promo product background. Use for product-specific default surfaces."
+              },
+              "txtOn": {
+                "$type": "color",
+                "$value": "{surface.color.product.promo.default.default.txtOn}",
+                "$description": "Promo product text on. Use for product-specific default surfaces."
+              },
+              "border": {
+                "$type": "color",
+                "$value": "{surface.color.product.promo.default.default.border}",
+                "$description": "Promo product border. Use for product-specific default surfaces."
+              }
+            },
+            "high": {
+              "background": {
+                "$type": "color",
+                "$value": "{surface.color.product.promo.default.high.background}",
+                "$description": "Promo product background. Use for product-specific default surfaces."
+              },
+              "txtOn": {
+                "$type": "color",
+                "$value": "{surface.color.product.promo.default.high.txtOn}",
+                "$description": "Promo product text on. Use for product-specific default surfaces."
+              },
+              "border": {
+                "$type": "color",
+                "$value": "{surface.color.product.promo.default.high.border}",
+                "$description": "Promo product border. Use for product-specific default surfaces."
+              }
+            },
+            "highest": {
+              "background": {
+                "$type": "color",
+                "$value": "{surface.color.product.promo.default.highest.background}",
+                "$description": "Promo product background. Use for product-specific default surfaces."
+              },
+              "txtOn": {
+                "$type": "color",
+                "$value": "{surface.color.product.promo.default.highest.txtOn}",
+                "$description": "Promo product text on. Use for product-specific default surfaces."
+              },
+              "border": {
+                "$type": "color",
+                "$value": "{surface.color.product.promo.default.highest.border}",
+                "$description": "Promo product border. Use for product-specific default surfaces."
+              }
+            }
+          },
+          "secondary": {
+            "lowest": {
+              "background": {
+                "$type": "color",
+                "$value": "{surface.color.product.promo.secondary.lowest.background}",
+                "$description": "Promo product background. Use for product-specific secondary variant surfaces."
+              },
+              "txtOn": {
+                "$type": "color",
+                "$value": "{surface.color.product.promo.secondary.lowest.txtOn}",
+                "$description": "Promo product text on. Use for product-specific secondary variant surfaces."
+              },
+              "border": {
+                "$type": "color",
+                "$value": "{surface.color.product.promo.secondary.lowest.border}",
+                "$description": "Promo product border. Use for product-specific secondary variant surfaces."
+              }
+            },
+            "low": {
+              "background": {
+                "$type": "color",
+                "$value": "{surface.color.product.promo.secondary.low.background}",
+                "$description": "Promo product background. Use for product-specific secondary variant surfaces."
+              },
+              "txtOn": {
+                "$type": "color",
+                "$value": "{surface.color.product.promo.secondary.low.txtOn}",
+                "$description": "Promo product text on. Use for product-specific secondary variant surfaces."
+              },
+              "border": {
+                "$type": "color",
+                "$value": "{surface.color.product.promo.secondary.low.border}",
+                "$description": "Promo product border. Use for product-specific secondary variant surfaces."
+              }
+            },
+            "default": {
+              "background": {
+                "$type": "color",
+                "$value": "{surface.color.product.promo.secondary.default.background}",
+                "$description": "Promo product background. Use for product-specific secondary variant surfaces."
+              },
+              "txtOn": {
+                "$type": "color",
+                "$value": "{surface.color.product.promo.secondary.default.txtOn}",
+                "$description": "Promo product text on. Use for product-specific secondary variant surfaces."
+              },
+              "border": {
+                "$type": "color",
+                "$value": "{surface.color.product.promo.secondary.default.border}",
+                "$description": "Promo product border. Use for product-specific secondary variant surfaces."
+              }
+            },
+            "high": {
+              "background": {
+                "$type": "color",
+                "$value": "{surface.color.product.promo.secondary.high.background}",
+                "$description": "Promo product background. Use for product-specific secondary variant surfaces."
+              },
+              "txtOn": {
+                "$type": "color",
+                "$value": "{surface.color.product.promo.secondary.high.txtOn}",
+                "$description": "Promo product text on. Use for product-specific secondary variant surfaces."
+              },
+              "border": {
+                "$type": "color",
+                "$value": "{surface.color.product.promo.secondary.high.border}",
+                "$description": "Promo product border. Use for product-specific secondary variant surfaces."
+              }
+            },
+            "highest": {
+              "background": {
+                "$type": "color",
+                "$value": "{surface.color.product.promo.secondary.highest.background}",
+                "$description": "Promo product background. Use for product-specific secondary variant surfaces."
+              },
+              "txtOn": {
+                "$type": "color",
+                "$value": "{surface.color.product.promo.secondary.highest.txtOn}",
+                "$description": "Promo product text on. Use for product-specific secondary variant surfaces."
+              },
+              "border": {
+                "$type": "color",
+                "$value": "{surface.color.product.promo.secondary.highest.border}",
+                "$description": "Promo product border. Use for product-specific secondary variant surfaces."
+              }
+            }
+          }
+        },
+        "cashback": {
+          "default": {
+            "lowest": {
+              "background": {
+                "$type": "color",
+                "$value": "{surface.color.product.cashback.default.lowest.background}",
+                "$description": "Cashback product background. Use for product-specific default surfaces."
+              },
+              "txtOn": {
+                "$type": "color",
+                "$value": "{surface.color.product.cashback.default.lowest.txtOn}",
+                "$description": "Cashback product text on. Use for product-specific default surfaces."
+              },
+              "border": {
+                "$type": "color",
+                "$value": "{surface.color.product.cashback.default.lowest.border}",
+                "$description": "Cashback product border. Use for product-specific default surfaces."
+              }
+            },
+            "low": {
+              "background": {
+                "$type": "color",
+                "$value": "{surface.color.product.cashback.default.low.background}",
+                "$description": "Cashback product background. Use for product-specific default surfaces."
+              },
+              "txtOn": {
+                "$type": "color",
+                "$value": "{surface.color.product.cashback.default.low.txtOn}",
+                "$description": "Cashback product text on. Use for product-specific default surfaces."
+              },
+              "border": {
+                "$type": "color",
+                "$value": "{surface.color.product.cashback.default.low.border}",
+                "$description": "Cashback product border. Use for product-specific default surfaces."
+              }
+            },
+            "default": {
+              "background": {
+                "$type": "color",
+                "$value": "{surface.color.product.cashback.default.default.background}",
+                "$description": "Cashback product background. Use for product-specific default surfaces."
+              },
+              "txtOn": {
+                "$type": "color",
+                "$value": "{surface.color.product.cashback.default.default.txtOn}",
+                "$description": "Cashback product text on. Use for product-specific default surfaces."
+              },
+              "border": {
+                "$type": "color",
+                "$value": "{surface.color.product.cashback.default.default.border}",
+                "$description": "Cashback product border. Use for product-specific default surfaces."
+              }
+            },
+            "high": {
+              "background": {
+                "$type": "color",
+                "$value": "{surface.color.product.cashback.default.high.background}",
+                "$description": "Cashback product background. Use for product-specific default surfaces."
+              },
+              "txtOn": {
+                "$type": "color",
+                "$value": "{surface.color.product.cashback.default.high.txtOn}",
+                "$description": "Cashback product text on. Use for product-specific default surfaces."
+              },
+              "border": {
+                "$type": "color",
+                "$value": "{surface.color.product.cashback.default.high.border}",
+                "$description": "Cashback product border. Use for product-specific default surfaces."
+              }
+            },
+            "highest": {
+              "background": {
+                "$type": "color",
+                "$value": "{surface.color.product.cashback.default.highest.background}",
+                "$description": "Cashback product background. Use for product-specific default surfaces."
+              },
+              "txtOn": {
+                "$type": "color",
+                "$value": "{surface.color.product.cashback.default.highest.txtOn}",
+                "$description": "Cashback product text on. Use for product-specific default surfaces."
+              },
+              "border": {
+                "$type": "color",
+                "$value": "{surface.color.product.cashback.default.highest.border}",
+                "$description": "Cashback product border. Use for product-specific default surfaces."
+              }
+            }
+          },
+          "secondary": {
+            "lowest": {
+              "background": {
+                "$type": "color",
+                "$value": "{surface.color.product.cashback.secondary.lowest.background}",
+                "$description": "Cashback product background. Use for product-specific secondary variant surfaces."
+              },
+              "txtOn": {
+                "$type": "color",
+                "$value": "{surface.color.product.cashback.secondary.lowest.txtOn}",
+                "$description": "Cashback product text on. Use for product-specific secondary variant surfaces."
+              },
+              "border": {
+                "$type": "color",
+                "$value": "{surface.color.product.cashback.secondary.lowest.border}",
+                "$description": "Cashback product border. Use for product-specific secondary variant surfaces."
+              }
+            },
+            "low": {
+              "background": {
+                "$type": "color",
+                "$value": "{surface.color.product.cashback.secondary.low.background}",
+                "$description": "Cashback product background. Use for product-specific secondary variant surfaces."
+              },
+              "txtOn": {
+                "$type": "color",
+                "$value": "{surface.color.product.cashback.secondary.low.txtOn}",
+                "$description": "Cashback product text on. Use for product-specific secondary variant surfaces."
+              },
+              "border": {
+                "$type": "color",
+                "$value": "{surface.color.product.cashback.secondary.low.border}",
+                "$description": "Cashback product border. Use for product-specific secondary variant surfaces."
+              }
+            },
+            "default": {
+              "background": {
+                "$type": "color",
+                "$value": "{surface.color.product.cashback.secondary.default.background}",
+                "$description": "Cashback product background. Use for product-specific secondary variant surfaces."
+              },
+              "txtOn": {
+                "$type": "color",
+                "$value": "{surface.color.product.cashback.secondary.default.txtOn}",
+                "$description": "Cashback product text on. Use for product-specific secondary variant surfaces."
+              },
+              "border": {
+                "$type": "color",
+                "$value": "{surface.color.product.cashback.secondary.default.border}",
+                "$description": "Cashback product border. Use for product-specific secondary variant surfaces."
+              }
+            },
+            "high": {
+              "background": {
+                "$type": "color",
+                "$value": "{surface.color.product.cashback.secondary.high.background}",
+                "$description": "Cashback product background. Use for product-specific secondary variant surfaces."
+              },
+              "txtOn": {
+                "$type": "color",
+                "$value": "{surface.color.product.cashback.secondary.high.txtOn}",
+                "$description": "Cashback product text on. Use for product-specific secondary variant surfaces."
+              },
+              "border": {
+                "$type": "color",
+                "$value": "{surface.color.product.cashback.secondary.high.border}",
+                "$description": "Cashback product border. Use for product-specific secondary variant surfaces."
+              }
+            },
+            "highest": {
+              "background": {
+                "$type": "color",
+                "$value": "{surface.color.product.cashback.secondary.highest.background}",
+                "$description": "Cashback product background. Use for product-specific secondary variant surfaces."
+              },
+              "txtOn": {
+                "$type": "color",
+                "$value": "{surface.color.product.cashback.secondary.highest.txtOn}",
+                "$description": "Cashback product text on. Use for product-specific secondary variant surfaces."
+              },
+              "border": {
+                "$type": "color",
+                "$value": "{surface.color.product.cashback.secondary.highest.border}",
+                "$description": "Cashback product border. Use for product-specific secondary variant surfaces."
+              }
+            }
+          }
+        },
+        "premium": {
+          "default": {
+            "lowest": {
+              "background": {
+                "$type": "color",
+                "$value": "{surface.color.product.premium.default.lowest.background}",
+                "$description": "Premium product background. Use for product-specific default surfaces."
+              },
+              "txtOn": {
+                "$type": "color",
+                "$value": "{surface.color.product.premium.default.lowest.txtOn}",
+                "$description": "Premium product text on. Use for product-specific default surfaces."
+              },
+              "border": {
+                "$type": "color",
+                "$value": "{surface.color.product.premium.default.lowest.border}",
+                "$description": "Premium product border. Use for product-specific default surfaces."
+              }
+            },
+            "low": {
+              "background": {
+                "$type": "color",
+                "$value": "{surface.color.product.premium.default.low.background}",
+                "$description": "Premium product background. Use for product-specific default surfaces."
+              },
+              "txtOn": {
+                "$type": "color",
+                "$value": "{surface.color.product.premium.default.low.txtOn}",
+                "$description": "Premium product text on. Use for product-specific default surfaces."
+              },
+              "border": {
+                "$type": "color",
+                "$value": "{surface.color.product.premium.default.low.border}",
+                "$description": "Premium product border. Use for product-specific default surfaces."
+              }
+            },
+            "default": {
+              "background": {
+                "$type": "color",
+                "$value": "{surface.color.product.premium.default.default.background}",
+                "$description": "Premium product background. Use for product-specific default surfaces."
+              },
+              "txtOn": {
+                "$type": "color",
+                "$value": "{surface.color.product.premium.default.default.txtOn}",
+                "$description": "Premium product text on. Use for product-specific default surfaces."
+              },
+              "border": {
+                "$type": "color",
+                "$value": "{surface.color.product.premium.default.default.border}",
+                "$description": "Premium product border. Use for product-specific default surfaces."
+              }
+            },
+            "high": {
+              "background": {
+                "$type": "color",
+                "$value": "{surface.color.product.premium.default.high.background}",
+                "$description": "Premium product background. Use for product-specific default surfaces."
+              },
+              "txtOn": {
+                "$type": "color",
+                "$value": "{surface.color.product.premium.default.high.txtOn}",
+                "$description": "Premium product text on. Use for product-specific default surfaces."
+              },
+              "border": {
+                "$type": "color",
+                "$value": "{surface.color.product.premium.default.high.border}",
+                "$description": "Premium product border. Use for product-specific default surfaces."
+              }
+            },
+            "highest": {
+              "background": {
+                "$type": "color",
+                "$value": "{surface.color.product.premium.default.highest.background}",
+                "$description": "Premium product background. Use for product-specific default surfaces."
+              },
+              "txtOn": {
+                "$type": "color",
+                "$value": "{surface.color.product.premium.default.highest.txtOn}",
+                "$description": "Premium product text on. Use for product-specific default surfaces."
+              },
+              "border": {
+                "$type": "color",
+                "$value": "{surface.color.product.premium.default.highest.border}",
+                "$description": "Premium product border. Use for product-specific default surfaces."
+              }
+            }
+          },
+          "secondary": {
+            "lowest": {
+              "background": {
+                "$type": "color",
+                "$value": "{surface.color.product.premium.secondary.lowest.background}",
+                "$description": "Premium product background. Use for product-specific secondary variant surfaces."
+              },
+              "txtOn": {
+                "$type": "color",
+                "$value": "{surface.color.product.premium.secondary.lowest.txtOn}",
+                "$description": "Premium product text on. Use for product-specific secondary variant surfaces."
+              },
+              "border": {
+                "$type": "color",
+                "$value": "{surface.color.product.premium.secondary.lowest.border}",
+                "$description": "Premium product border. Use for product-specific secondary variant surfaces."
+              }
+            },
+            "low": {
+              "background": {
+                "$type": "color",
+                "$value": "{surface.color.product.premium.secondary.low.background}",
+                "$description": "Premium product background. Use for product-specific secondary variant surfaces."
+              },
+              "txtOn": {
+                "$type": "color",
+                "$value": "{surface.color.product.premium.secondary.low.txtOn}",
+                "$description": "Premium product text on. Use for product-specific secondary variant surfaces."
+              },
+              "border": {
+                "$type": "color",
+                "$value": "{surface.color.product.premium.secondary.low.border}",
+                "$description": "Premium product border. Use for product-specific secondary variant surfaces."
+              }
+            },
+            "default": {
+              "background": {
+                "$type": "color",
+                "$value": "{surface.color.product.premium.secondary.default.background}",
+                "$description": "Premium product background. Use for product-specific secondary variant surfaces."
+              },
+              "txtOn": {
+                "$type": "color",
+                "$value": "{surface.color.product.premium.secondary.default.txtOn}",
+                "$description": "Premium product text on. Use for product-specific secondary variant surfaces."
+              },
+              "border": {
+                "$type": "color",
+                "$value": "{surface.color.product.premium.secondary.default.border}",
+                "$description": "Premium product border. Use for product-specific secondary variant surfaces."
+              }
+            },
+            "high": {
+              "background": {
+                "$type": "color",
+                "$value": "{surface.color.product.premium.secondary.high.background}",
+                "$description": "Premium product background. Use for product-specific secondary variant surfaces."
+              },
+              "txtOn": {
+                "$type": "color",
+                "$value": "{surface.color.product.premium.secondary.high.txtOn}",
+                "$description": "Premium product text on. Use for product-specific secondary variant surfaces."
+              },
+              "border": {
+                "$type": "color",
+                "$value": "{surface.color.product.premium.secondary.high.border}",
+                "$description": "Premium product border. Use for product-specific secondary variant surfaces."
+              }
+            },
+            "highest": {
+              "background": {
+                "$type": "color",
+                "$value": "{surface.color.product.premium.secondary.highest.background}",
+                "$description": "Premium product background. Use for product-specific secondary variant surfaces."
+              },
+              "txtOn": {
+                "$type": "color",
+                "$value": "{surface.color.product.premium.secondary.highest.txtOn}",
+                "$description": "Premium product text on. Use for product-specific secondary variant surfaces."
+              },
+              "border": {
+                "$type": "color",
+                "$value": "{surface.color.product.premium.secondary.highest.border}",
+                "$description": "Premium product border. Use for product-specific secondary variant surfaces."
+              }
+            }
+          }
+        }
+      },
+      "gradient": {
+        "config": {
+          "degrees": {
+            "horizontal": {
+              "$type": "number",
+              "$value": 180
+            },
+            "vertical": {
+              "$type": "number",
+              "$value": 270
+            },
+            "toBottom": {
+              "$type": "number",
+              "$value": 90
+            },
+            "diagonalLeft": {
+              "$type": "number",
+              "$value": -45
+            },
+            "diagonalRight": {
+              "$type": "number",
+              "$value": 45
+            },
+            "diagonalBrand": {
+              "$type": "number",
+              "$value": 135
+            },
+            "diagonalBrandAlt": {
+              "$type": "number",
+              "$value": 141
+            }
+          },
+          "steps": {
+            "0": {
+              "$type": "number",
+              "$value": 0
+            },
+            "10": {
+              "$type": "number",
+              "$value": 10
+            },
+            "20": {
+              "$type": "number",
+              "$value": 20
+            },
+            "25": {
+              "$type": "number",
+              "$value": 25
+            },
+            "30": {
+              "$type": "number",
+              "$value": 30
+            },
+            "40": {
+              "$type": "number",
+              "$value": 40
+            },
+            "50": {
+              "$type": "number",
+              "$value": 50
+            },
+            "60": {
+              "$type": "number",
+              "$value": 60
+            },
+            "70": {
+              "$type": "number",
+              "$value": 70
+            },
+            "75": {
+              "$type": "number",
+              "$value": 75
+            },
+            "80": {
+              "$type": "number",
+              "$value": 80
+            },
+            "90": {
+              "$type": "number",
+              "$value": 90
+            },
+            "100": {
+              "$type": "number",
+              "$value": 100
+            }
+          },
+          "colors": {
+            "first": {
+              "lowest": {
+                "$type": "color",
+                "$value": "{surface.color.gradient.configColor.first.lowest}",
+                "$description": "Gradient config color: first (lowest). Use for gradient stop."
+              },
+              "default": {
+                "$type": "color",
+                "$value": "{surface.color.gradient.configColor.first.default}",
+                "$description": "Gradient config color: first (default). Use for gradient stop."
+              }
+            },
+            "second": {
+              "lowest": {
+                "$type": "color",
+                "$value": "{surface.color.gradient.configColor.second.lowest}",
+                "$description": "Gradient config color: second (lowest). Use for gradient stop."
+              },
+              "default": {
+                "$type": "color",
+                "$value": "{surface.color.gradient.configColor.second.default}",
+                "$description": "Gradient config color: second (default). Use for gradient stop."
+              }
+            },
+            "third": {
+              "lowest": {
+                "$type": "color",
+                "$value": "{surface.color.gradient.configColor.third.lowest}",
+                "$description": "Gradient config color: third (lowest). Use for gradient stop."
+              },
+              "default": {
+                "$type": "color",
+                "$value": "{surface.color.gradient.configColor.third.default}",
+                "$description": "Gradient config color: third (default). Use for gradient stop."
+              }
+            }
+          }
+        },
+        "composites": {
+          "first": {
+            "$type": "color",
+            "$value": "linear-gradient(180deg, {semantic.color.gradient.config.colors.first.lowest} {semantic.color.gradient.config.steps.0}%, {semantic.color.gradient.config.colors.first.default} {semantic.color.gradient.config.steps.100}%)",
+            "$description": "Brand gradient: first. Use for hero areas and brand gradient fills."
+          },
+          "second": {
+            "$type": "color",
+            "$value": "linear-gradient(180deg, {semantic.color.gradient.config.colors.second.lowest} {semantic.color.gradient.config.steps.0}%, {semantic.color.gradient.config.colors.second.default} {semantic.color.gradient.config.steps.100}%)",
+            "$description": "Brand gradient: second. Use for hero areas and brand gradient fills."
+          },
+          "third": {
+            "$type": "color",
+            "$value": "linear-gradient(180deg, {semantic.color.gradient.config.colors.third.lowest} {semantic.color.gradient.config.steps.0}%, {semantic.color.gradient.config.colors.third.default} {semantic.color.gradient.config.steps.100}%)",
+            "$description": "Brand gradient: third. Use for hero areas and brand gradient fills."
+          }
+        }
+      }
+    },
+    "opacity": {
+      "color": {
+        "grayscale": {
+          "superTransparent": {
+            "$type": "color",
+            "$value": "{surface.opacity.color.dark.superTransparent}"
+          },
+          "semiTranslucid": {
+            "$type": "color",
+            "$value": "{surface.opacity.color.dark.semiTranslucid}"
+          },
+          "translucid": {
+            "$type": "color",
+            "$value": "{surface.opacity.color.dark.translucid}"
+          },
+          "superTranslucid": {
+            "$type": "color",
+            "$value": "{surface.opacity.color.dark.superTranslucid}"
+          },
+          "semiOpaque": {
+            "$type": "color",
+            "$value": "{surface.opacity.color.dark.semiOpaque}"
+          },
+          "transparent": {
+            "$type": "color",
+            "$value": "{surface.opacity.color.dark.transparent}"
+          },
+          "opaque": {
+            "$type": "color",
+            "$value": "{surface.opacity.color.dark.opaque}"
+          }
+        },
+        "light": {
+          "superTransparent": {
+            "$type": "color",
+            "$value": "{surface.opacity.color.light.superTransparent}"
+          },
+          "semiTranslucid": {
+            "$type": "color",
+            "$value": "{surface.opacity.color.light.semiTranslucid}"
+          },
+          "translucid": {
+            "$type": "color",
+            "$value": "{surface.opacity.color.light.translucid}"
+          },
+          "superTranslucid": {
+            "$type": "color",
+            "$value": "{surface.opacity.color.light.superTranslucid}"
+          },
+          "semiOpaque": {
+            "$type": "color",
+            "$value": "{surface.opacity.color.light.semiOpaque}"
+          },
+          "transparent": {
+            "$type": "color",
+            "$value": "{surface.opacity.color.light.transparent}"
+          },
+          "opaque": {
+            "$type": "color",
+            "$value": "{surface.opacity.color.light.opaque}"
+          }
+        }
+      },
+      "raw": {
+        "transparent": {
+          "$type": "opacity",
+          "$value": 0
+        },
+        "superTransparent": {
+          "$type": "opacity",
+          "$value": 10
+        },
+        "semiTranslucid": {
+          "$type": "opacity",
+          "$value": 20
+        },
+        "translucid": {
+          "$type": "opacity",
+          "$value": 50
+        },
+        "superTranslucid": {
+          "$type": "opacity",
+          "$value": 80
+        },
+        "semiOpaque": {
+          "$type": "opacity",
+          "$value": 90
+        },
+        "opaque": {
+          "$type": "opacity",
+          "$value": 100
+        }
+      }
+    },
+    "typography": {
+      "fontFamilies": {
+        "code": {
+          "$type": "fontFamilies",
+          "$value": "{_theme_typography.fontFamilies.code.face}"
+        },
+        "content": {
+          "$type": "fontFamilies",
+          "$value": "{_theme_typography.fontFamilies.content.face}"
+        },
+        "display": {
+          "$type": "fontFamilies",
+          "$value": "{_theme_typography.fontFamilies.display.face}"
+        },
+        "main": {
+          "$type": "fontFamilies",
+          "$value": "{_theme_typography.fontFamilies.main.face}"
+        }
+      },
+      "fontWeights": {
+        "code": {
+          "bold": {
+            "italic": {
+              "$type": "fontWeights",
+              "$value": "{_theme_typography.fontWeights.code.bold.italic}"
+            },
+            "normal": {
+              "$type": "fontWeights",
+              "$value": "{_theme_typography.fontWeights.code.bold.normal}"
+            }
+          },
+          "light": {
+            "italic": {
+              "$type": "fontWeights",
+              "$value": "{_theme_typography.fontWeights.code.light.italic}"
+            },
+            "normal": {
+              "$type": "fontWeights",
+              "$value": "{_theme_typography.fontWeights.code.light.normal}"
+            }
+          },
+          "regular": {
+            "italic": {
+              "$type": "fontWeights",
+              "$value": "{_theme_typography.fontWeights.code.regular.italic}"
+            },
+            "normal": {
+              "$type": "fontWeights",
+              "$value": "{_theme_typography.fontWeights.code.regular.normal}"
+            }
+          },
+          "semibold": {
+            "italic": {
+              "$type": "fontWeights",
+              "$value": "{_theme_typography.fontWeights.code.semibold.italic}"
+            },
+            "normal": {
+              "$type": "fontWeights",
+              "$value": "{_theme_typography.fontWeights.code.semibold.normal}"
+            }
+          },
+          "stronger": {
+            "italic": {
+              "$type": "fontWeights",
+              "$value": "{_theme_typography.fontWeights.code.black.italic}"
+            },
+            "normal": {
+              "$type": "fontWeights",
+              "$value": "{_theme_typography.fontWeights.code.black.normal}"
+            }
+          }
+        },
+        "content": {
+          "bold": {
+            "italic": {
+              "$type": "fontWeights",
+              "$value": "{_theme_typography.fontWeights.content.bold.italic}"
+            },
+            "normal": {
+              "$type": "fontWeights",
+              "$value": "{_theme_typography.fontWeights.content.bold.normal}"
+            }
+          },
+          "light": {
+            "italic": {
+              "$type": "fontWeights",
+              "$value": "{_theme_typography.fontWeights.display.regular.italic}"
+            },
+            "normal": {
+              "$type": "fontWeights",
+              "$value": "{_theme_typography.fontWeights.content.light.normal}"
+            }
+          },
+          "regular": {
+            "italic": {
+              "$type": "fontWeights",
+              "$value": "{_theme_typography.fontWeights.content.regular.italic}"
+            },
+            "normal": {
+              "$type": "fontWeights",
+              "$value": "{_theme_typography.fontWeights.content.regular.normal}"
+            }
+          },
+          "semibold": {
+            "italic": {
+              "$type": "fontWeights",
+              "$value": "{_theme_typography.fontWeights.content.semibold.italic}"
+            },
+            "normal": {
+              "$type": "fontWeights",
+              "$value": "{_theme_typography.fontWeights.content.semibold.normal}"
+            }
+          },
+          "stronger": {
+            "italic": {
+              "$type": "fontWeights",
+              "$value": "{_theme_typography.fontWeights.content.black.italic}"
+            },
+            "normal": {
+              "$type": "fontWeights",
+              "$value": "{_theme_typography.fontWeights.content.black.normal}"
+            }
+          }
+        },
+        "display": {
+          "bold": {
+            "italic": {
+              "$type": "fontWeights",
+              "$value": "{_theme_typography.fontWeights.display.bold.italic}"
+            },
+            "normal": {
+              "$type": "fontWeights",
+              "$value": "{_theme_typography.fontWeights.display.bold.normal}"
+            }
+          },
+          "light": {
+            "italic": {
+              "$type": "fontWeights",
+              "$value": "{_theme_typography.fontWeights.display.light.italic}"
+            },
+            "normal": {
+              "$type": "fontWeights",
+              "$value": "{_theme_typography.fontWeights.display.light.normal}"
+            }
+          },
+          "regular": {
+            "italic": {
+              "$type": "fontWeights",
+              "$value": "{_theme_typography.fontWeights.display.regular.italic}"
+            },
+            "normal": {
+              "$type": "fontWeights",
+              "$value": "{_theme_typography.fontWeights.display.regular.normal}"
+            }
+          },
+          "semibold": {
+            "italic": {
+              "$type": "fontWeights",
+              "$value": "{_theme_typography.fontWeights.display.semibold.italic}"
+            },
+            "normal": {
+              "$type": "fontWeights",
+              "$value": "{_theme_typography.fontWeights.display.semibold.normal}"
+            }
+          },
+          "stronger": {
+            "italic": {
+              "$type": "fontWeights",
+              "$value": "{_theme_typography.fontWeights.display.black.italic}"
+            },
+            "normal": {
+              "$type": "fontWeights",
+              "$value": "{_theme_typography.fontWeights.display.black.normal}"
+            }
+          }
+        },
+        "main": {
+          "bold": {
+            "italic": {
+              "$type": "fontWeights",
+              "$value": "{_theme_typography.fontWeights.main.bold.italic}"
+            },
+            "normal": {
+              "$type": "fontWeights",
+              "$value": "{_theme_typography.fontWeights.main.bold.normal}"
+            }
+          },
+          "light": {
+            "italic": {
+              "$type": "fontWeights",
+              "$value": "{_theme_typography.fontWeights.main.light.italic}"
+            },
+            "normal": {
+              "$type": "fontWeights",
+              "$value": "{_theme_typography.fontWeights.main.light.normal}"
+            }
+          },
+          "regular": {
+            "italic": {
+              "$type": "fontWeights",
+              "$value": "{_theme_typography.fontWeights.main.regular.italic}"
+            },
+            "normal": {
+              "$type": "fontWeights",
+              "$value": "{_theme_typography.fontWeights.main.regular.normal}"
+            }
+          },
+          "semibold": {
+            "italic": {
+              "$type": "fontWeights",
+              "$value": "{_theme_typography.fontWeights.main.semibold.italic}"
+            },
+            "normal": {
+              "$type": "fontWeights",
+              "$value": "{_theme_typography.fontWeights.main.semibold.normal}"
+            }
+          },
+          "stronger": {
+            "italic": {
+              "$type": "fontWeights",
+              "$value": "{_theme_typography.fontWeights.main.black.italic}"
+            },
+            "normal": {
+              "$type": "fontWeights",
+              "$value": "{_theme_typography.fontWeights.main.black.normal}"
+            }
+          }
+        }
+      },
+      "fontSizes": {
+        "nano": {
+          "$type": "fontSizes",
+          "$value": "{_theme_typography.fontSizes.nano}"
+        },
+        "micro": {
+          "$type": "fontSizes",
+          "$value": "{_theme_typography.fontSizes.micro}"
+        },
+        "extraSmall": {
+          "$type": "fontSizes",
+          "$value": "{_theme_typography.fontSizes.extraSmall}"
+        },
+        "small": {
+          "$type": "fontSizes",
+          "$value": "{_theme_typography.fontSizes.small}"
+        },
+        "medium": {
+          "$type": "fontSizes",
+          "$value": "{_theme_typography.fontSizes.medium}"
+        },
+        "large": {
+          "$type": "fontSizes",
+          "$value": "{_theme_typography.fontSizes.large}"
+        },
+        "extraLarge": {
+          "$type": "fontSizes",
+          "$value": "{_theme_typography.fontSizes.extraLarge}"
+        },
+        "mega": {
+          "$type": "fontSizes",
+          "$value": "{_theme_typography.fontSizes.mega}"
+        },
+        "giga": {
+          "$type": "fontSizes",
+          "$value": "{_theme_typography.fontSizes.giga}"
+        },
+        "tera": {
+          "$type": "fontSizes",
+          "$value": "{_theme_typography.fontSizes.tera}"
+        },
+        "peta": {
+          "$type": "fontSizes",
+          "$value": "{_theme_typography.fontSizes.peta}"
+        },
+        "exa": {
+          "$type": "fontSizes",
+          "$value": "{_theme_typography.fontSizes.exa}"
+        },
+        "zetta": {
+          "$type": "fontSizes",
+          "$value": "{_theme_typography.fontSizes.zetta}"
+        }
+      },
+      "letterSpacings": {
+        "regular": {
+          "$type": "letterSpacing",
+          "$value": "{_theme_typography.letterSpacings.regular}"
+        },
+        "tight": {
+          "$type": "letterSpacing",
+          "$value": "{_theme_typography.letterSpacings.tight}"
+        },
+        "wild": {
+          "$type": "letterSpacing",
+          "$value": "{_theme_typography.letterSpacings.wild}"
+        }
+      },
+      "lineHeights": {
+        "tight": {
+          "nano": {
+            "$type": "lineHeights",
+            "$value": "{_theme_typography.lineHeights.tight.nano}"
+          },
+          "micro": {
+            "$type": "lineHeights",
+            "$value": "{_theme_typography.lineHeights.tight.micro}"
+          },
+          "extraSmall": {
+            "$type": "lineHeights",
+            "$value": "{_theme_typography.lineHeights.tight.extraSmall}"
+          },
+          "small": {
+            "$type": "lineHeights",
+            "$value": "{_theme_typography.lineHeights.tight.small}"
+          },
+          "medium": {
+            "$type": "lineHeights",
+            "$value": "{_theme_typography.lineHeights.tight.medium}"
+          },
+          "large": {
+            "$type": "lineHeights",
+            "$value": "{_theme_typography.lineHeights.tight.large}"
+          },
+          "extraLarge": {
+            "$type": "lineHeights",
+            "$value": "{_theme_typography.lineHeights.tight.extraLarge}"
+          },
+          "mega": {
+            "$type": "lineHeights",
+            "$value": "{_theme_typography.lineHeights.tight.mega}"
+          },
+          "giga": {
+            "$type": "lineHeights",
+            "$value": "{_theme_typography.lineHeights.tight.giga}"
+          },
+          "tera": {
+            "$type": "lineHeights",
+            "$value": "{_theme_typography.lineHeights.tight.tera}"
+          },
+          "peta": {
+            "$type": "lineHeights",
+            "$value": "{_theme_typography.lineHeights.tight.peta}"
+          },
+          "exa": {
+            "$type": "lineHeights",
+            "$value": "{_theme_typography.lineHeights.tight.exa}"
+          },
+          "zetta": {
+            "$type": "lineHeights",
+            "$value": "{_theme_typography.lineHeights.tight.zetta}"
+          }
+        },
+        "close": {
+          "nano": {
+            "$type": "lineHeights",
+            "$value": "{_theme_typography.lineHeights.close.nano}"
+          },
+          "micro": {
+            "$type": "lineHeights",
+            "$value": "{_theme_typography.lineHeights.close.micro}"
+          },
+          "extraSmall": {
+            "$type": "lineHeights",
+            "$value": "{_theme_typography.lineHeights.close.extraSmall}"
+          },
+          "small": {
+            "$type": "lineHeights",
+            "$value": "{_theme_typography.lineHeights.close.small}"
+          },
+          "medium": {
+            "$type": "lineHeights",
+            "$value": "{_theme_typography.lineHeights.close.medium}"
+          },
+          "large": {
+            "$type": "lineHeights",
+            "$value": "{_theme_typography.lineHeights.close.large}"
+          },
+          "extraLarge": {
+            "$type": "lineHeights",
+            "$value": "{_theme_typography.lineHeights.close.extraLarge}"
+          },
+          "mega": {
+            "$type": "lineHeights",
+            "$value": "{_theme_typography.lineHeights.close.mega}"
+          },
+          "giga": {
+            "$type": "lineHeights",
+            "$value": "{_theme_typography.lineHeights.close.giga}"
+          },
+          "tera": {
+            "$type": "lineHeights",
+            "$value": "{_theme_typography.lineHeights.close.tera}"
+          },
+          "peta": {
+            "$type": "lineHeights",
+            "$value": "{_theme_typography.lineHeights.close.peta}"
+          },
+          "exa": {
+            "$type": "lineHeights",
+            "$value": "{_theme_typography.lineHeights.close.exa}"
+          },
+          "zetta": {
+            "$type": "lineHeights",
+            "$value": "{_theme_typography.lineHeights.close.zetta}"
+          }
+        },
+        "regular": {
+          "nano": {
+            "$type": "lineHeights",
+            "$value": "{_theme_typography.lineHeights.regular.nano}"
+          },
+          "micro": {
+            "$type": "lineHeights",
+            "$value": "{_theme_typography.lineHeights.regular.micro}"
+          },
+          "extraSmall": {
+            "$type": "lineHeights",
+            "$value": "{_theme_typography.lineHeights.regular.extraSmall}"
+          },
+          "small": {
+            "$type": "lineHeights",
+            "$value": "{_theme_typography.lineHeights.regular.small}"
+          },
+          "medium": {
+            "$type": "lineHeights",
+            "$value": "{_theme_typography.lineHeights.regular.medium}"
+          },
+          "large": {
+            "$type": "lineHeights",
+            "$value": "{_theme_typography.lineHeights.regular.large}"
+          },
+          "extraLarge": {
+            "$type": "lineHeights",
+            "$value": "{_theme_typography.lineHeights.regular.extraLarge}"
+          },
+          "mega": {
+            "$type": "lineHeights",
+            "$value": "{_theme_typography.lineHeights.regular.mega}"
+          },
+          "giga": {
+            "$type": "lineHeights",
+            "$value": "{_theme_typography.lineHeights.regular.giga}"
+          },
+          "tera": {
+            "$type": "lineHeights",
+            "$value": "{_theme_typography.lineHeights.regular.tera}"
+          },
+          "peta": {
+            "$type": "lineHeights",
+            "$value": "{_theme_typography.lineHeights.regular.peta}"
+          },
+          "exa": {
+            "$type": "lineHeights",
+            "$value": "{_theme_typography.lineHeights.regular.exa}"
+          },
+          "zetta": {
+            "$type": "lineHeights",
+            "$value": "{_theme_typography.lineHeights.regular.zetta}"
+          }
+        },
+        "wild": {
+          "nano": {
+            "$type": "lineHeights",
+            "$value": "{_theme_typography.lineHeights.wild.nano}"
+          },
+          "micro": {
+            "$type": "lineHeights",
+            "$value": "{_theme_typography.lineHeights.wild.micro}"
+          },
+          "extraSmall": {
+            "$type": "lineHeights",
+            "$value": "{_theme_typography.lineHeights.wild.extraSmall}"
+          },
+          "small": {
+            "$type": "lineHeights",
+            "$value": "{_theme_typography.lineHeights.wild.small}"
+          },
+          "medium": {
+            "$type": "lineHeights",
+            "$value": "{_theme_typography.lineHeights.wild.medium}"
+          },
+          "large": {
+            "$type": "lineHeights",
+            "$value": "{_theme_typography.lineHeights.wild.large}"
+          },
+          "extraLarge": {
+            "$type": "lineHeights",
+            "$value": "{_theme_typography.lineHeights.wild.extraLarge}"
+          },
+          "mega": {
+            "$type": "lineHeights",
+            "$value": "{_theme_typography.lineHeights.wild.mega}"
+          },
+          "giga": {
+            "$type": "lineHeights",
+            "$value": "{_theme_typography.lineHeights.wild.giga}"
+          },
+          "tera": {
+            "$type": "lineHeights",
+            "$value": "{_theme_typography.lineHeights.wild.tera}"
+          },
+          "peta": {
+            "$type": "lineHeights",
+            "$value": "{_theme_typography.lineHeights.wild.peta}"
+          },
+          "exa": {
+            "$type": "lineHeights",
+            "$value": "{_theme_typography.lineHeights.wild.exa}"
+          },
+          "zetta": {
+            "$type": "lineHeights",
+            "$value": "{_theme_typography.lineHeights.wild.zetta}"
+          }
+        }
+      },
+      "textCase": {
+        "normal": {
+          "$type": "textCase",
+          "$value": "{_theme_typography.textCases.normal}"
+        },
+        "uppercase": {
+          "$type": "textCase",
+          "$value": "{_theme_typography.textCases.uppercase}"
+        },
+        "lowercase": {
+          "$type": "textCase",
+          "$value": "{_theme_typography.textCases.lowercase}"
+        },
+        "capitalize": {
+          "$type": "textCase",
+          "$value": "{_theme_typography.textCases.capitalize}"
+        }
+      },
+      "textDecoration": {
+        "default": {
+          "$type": "textDecoration",
+          "$value": "{_theme_typography.textDecoration.default}"
+        },
+        "underline": {
+          "$type": "textDecoration",
+          "$value": "{_theme_typography.textDecoration.underline}"
+        },
+        "lineThrough": {
+          "$type": "textDecoration",
+          "$value": "{_theme_typography.textDecoration.lineThrough}"
+        }
+      }
+    },
+    "dimension": {
+      "sizing": {
+        "zero": {
+          "$type": "sizing",
+          "$value": "{dimension.semantic.zero}"
+        },
+        "pico": {
+          "$type": "sizing",
+          "$value": "{dimension.semantic.pico}"
+        },
+        "nano": {
+          "$type": "sizing",
+          "$value": "{dimension.semantic.nano}"
+        },
+        "micro": {
+          "$type": "sizing",
+          "$value": "{dimension.semantic.micro}"
+        },
+        "extraSmall": {
+          "$type": "sizing",
+          "$value": "{dimension.semantic.extraSmall}"
+        },
+        "small": {
+          "$type": "sizing",
+          "$value": "{dimension.semantic.small}"
+        },
+        "medium": {
+          "$type": "sizing",
+          "$value": "{dimension.semantic.medium}"
+        },
+        "large": {
+          "$type": "sizing",
+          "$value": "{dimension.semantic.large}"
+        },
+        "extraLarge": {
+          "$type": "sizing",
+          "$value": "{dimension.semantic.extraLarge}"
+        },
+        "mega": {
+          "$type": "sizing",
+          "$value": "{dimension.semantic.mega}"
+        },
+        "giga": {
+          "$type": "sizing",
+          "$value": "{dimension.semantic.giga}"
+        },
+        "tera": {
+          "$type": "sizing",
+          "$value": "{dimension.semantic.tera}"
+        },
+        "peta": {
+          "$type": "sizing",
+          "$value": "{dimension.semantic.peta}"
+        }
+      },
+      "spacing": {
+        "zero": {
+          "$type": "spacing",
+          "$value": "{dimension.semantic.zero}"
+        },
+        "micro": {
+          "$type": "spacing",
+          "$value": "{dimension.semantic.micro}"
+        },
+        "extraSmall": {
+          "$type": "spacing",
+          "$value": "{dimension.semantic.extraSmall}"
+        },
+        "small": {
+          "$type": "spacing",
+          "$value": "{dimension.semantic.small}"
+        },
+        "medium": {
+          "$type": "spacing",
+          "$value": "{dimension.semantic.medium}"
+        },
+        "large": {
+          "$type": "spacing",
+          "$value": "{dimension.semantic.large}"
+        },
+        "extraLarge": {
+          "$type": "spacing",
+          "$value": "{dimension.semantic.extraLarge}"
+        },
+        "mega": {
+          "$type": "spacing",
+          "$value": "{dimension.semantic.mega}"
+        },
+        "giga": {
+          "$type": "spacing",
+          "$value": "{dimension.semantic.giga}"
+        },
+        "tera": {
+          "$type": "spacing",
+          "$value": "{dimension.semantic.tera}"
+        },
+        "peta": {
+          "$type": "spacing",
+          "$value": "{dimension.semantic.peta}"
+        }
+      }
+    },
+    "depth": {
+      "spread": {
+        "close": {
+          "$type": "number",
+          "$value": 0
+        },
+        "next": {
+          "$type": "number",
+          "$value": -2
+        },
+        "near": {
+          "$type": "number",
+          "$value": -4
+        },
+        "distant": {
+          "$type": "number",
+          "$value": -8
+        },
+        "far": {
+          "$type": "number",
+          "$value": -12
+        }
+      }
+    },
+    "border": {
+      "width": {
+        "none": {
+          "$type": "borderWidth",
+          "$value": "{semantic.dimension.sizing.zero}"
+        },
+        "small": {
+          "$type": "borderWidth",
+          "$value": "{semantic.dimension.sizing.pico}"
+        },
+        "medium": {
+          "$type": "borderWidth",
+          "$value": "{semantic.dimension.sizing.nano}"
+        },
+        "large": {
+          "$type": "borderWidth",
+          "$value": "{semantic.dimension.sizing.micro}"
+        },
+        "extraLarge": {
+          "$type": "borderWidth",
+          "$value": "{semantic.dimension.sizing.extraSmall}"
+        }
+      },
+      "radii": {
+        "straight": {
+          "$type": "borderRadius",
+          "$value": "{_theme_borders.radii.straight}"
+        },
+        "micro": {
+          "$type": "borderRadius",
+          "$value": "{_theme_borders.radii.micro}"
+        },
+        "extraSmall": {
+          "$type": "borderRadius",
+          "$value": "{_theme_borders.radii.extraSmall}"
+        },
+        "small": {
+          "$type": "borderRadius",
+          "$value": "{_theme_borders.radii.small}"
+        },
+        "medium": {
+          "$type": "borderRadius",
+          "$value": "{_theme_borders.radii.medium}"
+        },
+        "large": {
+          "$type": "borderRadius",
+          "$value": "{_theme_borders.radii.large}"
+        },
+        "extraLarge": {
+          "$type": "borderRadius",
+          "$value": "{_theme_borders.radii.extraLarge}"
+        },
+        "mega": {
+          "$type": "borderRadius",
+          "$value": "{_theme_borders.radii.mega}"
+        },
+        "circular": {
+          "$type": "borderRadius",
+          "$value": "{_theme_borders.radii.circular}"
+        }
+      }
+    }
+  }
+}

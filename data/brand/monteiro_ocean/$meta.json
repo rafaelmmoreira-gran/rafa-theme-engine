@@ -1,0 +1,44 @@
+{
+  "$description": "Theme generation metadata - All files in this directory are auto-generated",
+  "$generator": "dynamic-themes/scripts/generate-all-themes.mjs",
+  "$config": "config/monteiro-ocean.config.mjs",
+  "$documentation": "dynamic-themes/README.md",
+  "$generatedAt": "2026-07-02T20:12:42.338Z",
+  "$warning": "All files are auto-generated. Changes will be lost on next generation. Edit the config file instead.",
+  "$files": [
+    {
+      "name": "_grayscale.json",
+      "description": "Grayscale color tokens",
+      "hasMeta": true
+    },
+    {
+      "name": "_brand.json",
+      "description": "Brand color tokens - semantic color mappings",
+      "hasMeta": true
+    },
+    {
+      "name": "_typography.json",
+      "description": "Typography tokens - font families, sizes, weights, line heights",
+      "hasMeta": true
+    },
+    {
+      "name": "_borders.json",
+      "description": "Border radius tokens",
+      "hasMeta": true
+    },
+    {
+      "name": "_gradients.json",
+      "description": "Gradient config tokens (degrees, steps) - structure from themes.config.json",
+      "hasMeta": false
+    }
+  ],
+  "$options": {
+    "includePrimitives": false,
+    "uiTokens": false
+  },
+  "$accessibility": {
+    "level": "AA",
+    "bypass": false,
+    "validatedAt": "2026-07-02T20:12:42.325Z"
+  }
+}

@@ -1,0 +1,219 @@
+{
+  "$generated": {
+    "brand": "monteiro_ocean",
+    "generatedAt": "2026-07-02T20:12:56.410Z",
+    "engine": "aplica-tokens-theme-engine"
+  },
+  "colors": {
+    "primary": "#006699",
+    "secondary": "#008080",
+    "tertiary": "#001f3f",
+    "surface": "#f4f9fe",
+    "on-surface": "#000000",
+    "error": "#000000",
+    "neutral": "#676d72"
+  },
+  "typography": {
+    "display": {
+      "fontFamily": "Roboto",
+      "fontSize": "16px",
+      "fontWeight": 400,
+      "lineHeight": "24px",
+      "letterSpacing": "0em",
+      "textCase": "none",
+      "textDecoration": "none"
+    },
+    "h1": {
+      "fontFamily": "Roboto",
+      "fontSize": "16px",
+      "fontWeight": 400,
+      "lineHeight": "24px",
+      "letterSpacing": "0em",
+      "textCase": "none",
+      "textDecoration": "none"
+    },
+    "h2": {
+      "fontFamily": "Roboto",
+      "fontSize": "16px",
+      "fontWeight": 400,
+      "lineHeight": "24px",
+      "letterSpacing": "0em",
+      "textCase": "none",
+      "textDecoration": "none"
+    },
+    "h3": {
+      "fontFamily": "Roboto",
+      "fontSize": "16px",
+      "fontWeight": 400,
+      "lineHeight": "24px",
+      "letterSpacing": "0em",
+      "textCase": "none",
+      "textDecoration": "none"
+    },
+    "h4": {
+      "fontFamily": "Roboto",
+      "fontSize": "16px",
+      "fontWeight": 400,
+      "lineHeight": "24px",
+      "letterSpacing": "0em",
+      "textCase": "none",
+      "textDecoration": "none"
+    },
+    "title-sm": {
+      "fontFamily": "Roboto",
+      "fontSize": "20px",
+      "fontWeight": 600,
+      "lineHeight": "24px",
+      "letterSpacing": "0em",
+      "textCase": "none",
+      "textDecoration": "none"
+    },
+    "body-lg": {
+      "fontFamily": "Roboto",
+      "fontSize": "16px",
+      "fontWeight": 400,
+      "lineHeight": "24px",
+      "letterSpacing": "0em",
+      "textCase": "none",
+      "textDecoration": "none"
+    },
+    "body-md": {
+      "fontFamily": "Roboto",
+      "fontSize": "16px",
+      "fontWeight": 400,
+      "lineHeight": "24px",
+      "letterSpacing": "0em",
+      "textCase": "none",
+      "textDecoration": "none"
+    },
+    "body-sm": {
+      "fontFamily": "Roboto",
+      "fontSize": "16px",
+      "fontWeight": 400,
+      "lineHeight": "24px",
+      "letterSpacing": "0em",
+      "textCase": "none",
+      "textDecoration": "none"
+    },
+    "label-md": {
+      "fontFamily": "Roboto",
+      "fontSize": "16px",
+      "fontWeight": 400,
+      "lineHeight": "24px",
+      "letterSpacing": "0em",
+      "textCase": "none",
+      "textDecoration": "none"
+    },
+    "label-sm": {
+      "fontFamily": "Roboto",
+      "fontSize": "16px",
+      "fontWeight": 400,
+      "lineHeight": "24px",
+      "letterSpacing": "0em",
+      "textCase": "none",
+      "textDecoration": "none"
+    },
+    "action": {
+      "fontFamily": "Roboto",
+      "fontSize": "16px",
+      "fontWeight": 400,
+      "lineHeight": "24px",
+      "letterSpacing": "0em",
+      "textCase": "none",
+      "textDecoration": "none"
+    },
+    "link": {
+      "fontFamily": "Roboto",
+      "fontSize": "16px",
+      "fontWeight": 400,
+      "lineHeight": "24px",
+      "letterSpacing": "0em",
+      "textCase": "none",
+      "textDecoration": "none"
+    },
+    "code": {
+      "fontFamily": "Roboto",
+      "fontSize": "16px",
+      "fontWeight": 400,
+      "lineHeight": "24px",
+      "letterSpacing": "0em",
+      "textCase": "none",
+      "textDecoration": "none"
+    }
+  },
+  "spacing": {
+    "xs": "8px",
+    "sm": "12px",
+    "md": "16px",
+    "lg": "20px",
+    "xl": "24px",
+    "2xl": "28px",
+    "3xl": "44px"
+  },
+  "rounded": {
+    "none": "0px",
+    "sm": "8px",
+    "md": "12px",
+    "lg": "16px",
+    "xl": "24px",
+    "full": "1000px"
+  },
+  "components": {
+    "button-primary": {
+      "backgroundColor": "{colors.primary}",
+      "textColor": "{colors.on-surface}",
+      "rounded": "{rounded.md}",
+      "padding": "12px"
+    },
+    "button-secondary": {
+      "backgroundColor": "transparent",
+      "borderColor": "{colors.primary}",
+      "textColor": "{colors.primary}",
+      "rounded": "{rounded.md}",
+      "padding": "12px"
+    },
+    "feedback-error": {
+      "backgroundColor": "{colors.error}",
+      "textColor": "#ffffff",
+      "rounded": "{rounded.sm}"
+    },
+    "card": {
+      "backgroundColor": "{colors.surface}",
+      "borderColor": "#676d72",
+      "rounded": "{rounded.lg}",
+      "padding": "20px"
+    }
+  },
+  "schema": {
+    "colors": {
+      "primary": {
+        "source": "color.brand.branding.first.default.background",
+        "description": "Main brand color (Aplica: brand.branding.first.default). Use for CTAs and primary interactive elements."
+      },
+      "secondary": {
+        "source": "color.brand.branding.second.default.background",
+        "description": "Secondary brand color (Aplica: brand.branding.second.default). Accents, highlights, supporting elements."
+      },
+      "tertiary": {
+        "source": "color.brand.branding.third.default.background",
+        "description": "Tertiary / accent brand color (Aplica: brand.branding.third.default)."
+      },
+      "surface": {
+        "source": "color.brand.ambient.contrast.base.positive.background",
+        "description": "Base page background (Aplica: brand.ambient.contrast.base.positive). The canvas color."
+      },
+      "on-surface": {
+        "source": "color.brand.ambient.contrast.base.positive.txtOn",
+        "description": "Primary readable text on the base surface. WCAG-validated against surface."
+      },
+      "error": {
+        "source": "color.interface.feedback.solid.danger.default.normal.background",
+        "description": "Danger / error feedback color (Aplica: interface.feedback.danger.default)."
+      },
+      "neutral": {
+        "source": "color.brand.ambient.neutral.mid.background",
+        "description": "Mid-point neutral tone (Aplica: brand.ambient.neutral.mid). Use for borders, dividers, subtle backgrounds."
+      }
+    }
+  }
+}

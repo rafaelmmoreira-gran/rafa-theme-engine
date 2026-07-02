@@ -1,0 +1,100 @@
+{
+  "elevation": {
+    "level_minus_one": {
+      "$type": "boxShadow",
+      "$value": {
+        "color": "{semantic.opacity.color.grayscale.superTransparent}",
+        "type": "innerShadow",
+        "x": "{semantic.dimension.sizing.zero}",
+        "y": "{semantic.dimension.sizing.zero}",
+        "blur": "{semantic.dimension.sizing.micro}",
+        "spread": "{semantic.depth.spread.close}"
+      },
+      "$description": "Inset shadow. Use for sunken or input-like surfaces."
+    },
+    "level_zero": {
+      "$type": "boxShadow",
+      "$value": {
+        "color": "{semantic.opacity.color.grayscale.superTransparent}",
+        "type": "dropShadow",
+        "x": "{semantic.dimension.sizing.zero}",
+        "y": "{semantic.dimension.sizing.zero}",
+        "blur": "{semantic.dimension.sizing.zero}",
+        "spread": "{semantic.depth.spread.close}"
+      },
+      "$description": "No elevation. Use for flat surfaces and base layers."
+    },
+    "level_one": {
+      "$type": "boxShadow",
+      "$value": {
+        "color": "{semantic.opacity.color.grayscale.superTransparent}",
+        "type": "dropShadow",
+        "x": "{semantic.dimension.sizing.zero}",
+        "y": "{semantic.dimension.sizing.nano}",
+        "blur": "{semantic.dimension.sizing.small}",
+        "spread": "{semantic.depth.spread.next}"
+      },
+      "$description": "Subtle elevation. Use for cards and panels."
+    },
+    "level_two": {
+      "$type": "boxShadow",
+      "$value": {
+        "color": "{semantic.opacity.color.grayscale.superTransparent}",
+        "type": "dropShadow",
+        "x": "{semantic.dimension.sizing.zero}",
+        "y": "{semantic.dimension.sizing.nano}",
+        "blur": "{semantic.dimension.sizing.large}",
+        "spread": "{semantic.depth.spread.next}"
+      },
+      "$description": "Low elevation. Use for dropdowns and raised controls."
+    },
+    "level_three": {
+      "$type": "boxShadow",
+      "$value": {
+        "color": "{semantic.opacity.color.grayscale.superTransparent}",
+        "type": "dropShadow",
+        "x": "{semantic.dimension.sizing.zero}",
+        "y": "{semantic.dimension.sizing.micro}",
+        "blur": "{semantic.dimension.sizing.extraLarge}",
+        "spread": "{semantic.depth.spread.near}"
+      },
+      "$description": "Medium elevation. Use for popovers and tooltips."
+    },
+    "level_four": {
+      "$type": "boxShadow",
+      "$value": {
+        "color": "{semantic.opacity.color.grayscale.superTransparent}",
+        "type": "dropShadow",
+        "x": "{semantic.dimension.sizing.zero}",
+        "y": "{semantic.dimension.sizing.extraSmall}",
+        "blur": "{semantic.dimension.sizing.mega}",
+        "spread": "{semantic.depth.spread.near}"
+      },
+      "$description": "High elevation. Use for modals and dialogs."
+    },
+    "level_five": {
+      "$type": "boxShadow",
+      "$value": {
+        "color": "{semantic.opacity.color.grayscale.superTransparent}",
+        "type": "dropShadow",
+        "x": "{semantic.dimension.sizing.zero}",
+        "y": "{semantic.dimension.sizing.small}",
+        "blur": "{semantic.dimension.sizing.giga}",
+        "spread": "{semantic.depth.spread.distant}"
+      },
+      "$description": "Higher elevation. Use for overlays and drawers."
+    },
+    "level_six": {
+      "$type": "boxShadow",
+      "$value": {
+        "color": "{semantic.opacity.color.grayscale.superTransparent}",
+        "type": "dropShadow",
+        "x": "{semantic.dimension.sizing.zero}",
+        "y": "{semantic.dimension.sizing.large}",
+        "blur": "{semantic.dimension.sizing.giga}",
+        "spread": "{semantic.depth.spread.distant}"
+      },
+      "$description": "Highest elevation. Use for full-screen overlays and toasts."
+    }
+  }
+}

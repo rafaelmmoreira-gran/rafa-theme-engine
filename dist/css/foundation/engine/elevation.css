@@ -1,0 +1,37 @@
+/**
+ * Elevation Styles - CSS Classes
+ * Do not edit directly, this file was auto-generated.
+ */
+
+.elevation-level_minus_one {
+  box-shadow: inset var(--semantic-dimension-sizing-zero) var(--semantic-dimension-sizing-zero) var(--semantic-dimension-sizing-micro) calc(0px + var(--semantic-depth-spread-close)) var(--semantic-opacity-color-grayscale-superTransparent);
+}
+
+.elevation-level_zero {
+  box-shadow: var(--semantic-dimension-sizing-zero) var(--semantic-dimension-sizing-zero) var(--semantic-dimension-sizing-zero) calc(0px + var(--semantic-depth-spread-close)) var(--semantic-opacity-color-grayscale-superTransparent);
+}
+
+.elevation-level_one {
+  box-shadow: var(--semantic-dimension-sizing-zero) var(--semantic-dimension-sizing-nano) var(--semantic-dimension-sizing-small) calc(0px + var(--semantic-depth-spread-next)) var(--semantic-opacity-color-grayscale-superTransparent);
+}
+
+.elevation-level_two {
+  box-shadow: var(--semantic-dimension-sizing-zero) var(--semantic-dimension-sizing-nano) var(--semantic-dimension-sizing-large) calc(0px + var(--semantic-depth-spread-next)) var(--semantic-opacity-color-grayscale-superTransparent);
+}
+
+.elevation-level_three {
+  box-shadow: var(--semantic-dimension-sizing-zero) var(--semantic-dimension-sizing-micro) var(--semantic-dimension-sizing-extraLarge) calc(0px + var(--semantic-depth-spread-near)) var(--semantic-opacity-color-grayscale-superTransparent);
+}
+
+.elevation-level_four {
+  box-shadow: var(--semantic-dimension-sizing-zero) var(--semantic-dimension-sizing-extraSmall) var(--semantic-dimension-sizing-mega) calc(0px + var(--semantic-depth-spread-near)) var(--semantic-opacity-color-grayscale-superTransparent);
+}
+
+.elevation-level_five {
+  box-shadow: var(--semantic-dimension-sizing-zero) var(--semantic-dimension-sizing-small) var(--semantic-dimension-sizing-giga) calc(0px + var(--semantic-depth-spread-distant)) var(--semantic-opacity-color-grayscale-superTransparent);
+}
+
+.elevation-level_six {
+  box-shadow: var(--semantic-dimension-sizing-zero) var(--semantic-dimension-sizing-large) var(--semantic-dimension-sizing-giga) calc(0px + var(--semantic-depth-spread-distant)) var(--semantic-opacity-color-grayscale-superTransparent);
+}
+

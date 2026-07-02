@@ -1,0 +1,42 @@
+{
+  "_theme_borders": {
+    "radii": {
+      "straight": {
+        "$type": "borderRadius",
+        "$value": "0px"
+      },
+      "micro": {
+        "$type": "borderRadius",
+        "$value": "{dimension.semantic.micro}"
+      },
+      "extraSmall": {
+        "$type": "borderRadius",
+        "$value": "{dimension.semantic.extraSmall}"
+      },
+      "small": {
+        "$type": "borderRadius",
+        "$value": "{dimension.semantic.small}"
+      },
+      "medium": {
+        "$type": "borderRadius",
+        "$value": "{dimension.semantic.medium}"
+      },
+      "large": {
+        "$type": "borderRadius",
+        "$value": "{dimension.semantic.extraLarge}"
+      },
+      "extraLarge": {
+        "$type": "borderRadius",
+        "$value": "{dimension.semantic.mega}"
+      },
+      "mega": {
+        "$type": "borderRadius",
+        "$value": "{dimension.semantic.giga}"
+      },
+      "circular": {
+        "$type": "borderRadius",
+        "$value": "1000px"
+      }
+    }
+  }
+}

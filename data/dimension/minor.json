@@ -1,0 +1,544 @@
+{
+  "dimension": {
+    "scale": {
+      "0": {
+        "$type": "dimension",
+        "$value": "0px",
+        "$description": "Zero spacing - removes all spacing, used for resetting margins/padding"
+      },
+      "6": {
+        "$type": "dimension",
+        "$value": "1px",
+        "$description": "Minimal spacing - hairline gaps, subtle borders, tight icon spacing"
+      },
+      "12": {
+        "$type": "dimension",
+        "$value": "1px",
+        "$description": "Tiny spacing - compact padding, small gaps between related elements"
+      },
+      "25": {
+        "$type": "dimension",
+        "$value": "3px",
+        "$description": "Very small spacing - tight padding for dense layouts, small border radius"
+      },
+      "50": {
+        "$type": "dimension",
+        "$value": "6px",
+        "$description": "Extra small spacing - standard padding for compact components"
+      },
+      "75": {
+        "$type": "dimension",
+        "$value": "9px",
+        "$description": "Small spacing - comfortable padding for small components, form field spacing"
+      },
+      "100": {
+        "$type": "dimension",
+        "$value": "12px",
+        "$description": "Medium spacing - default padding for most components, standard gap between elements"
+      },
+      "125": {
+        "$type": "dimension",
+        "$value": "15px",
+        "$description": "Large spacing - generous padding, section spacing, larger gaps"
+      },
+      "150": {
+        "$type": "dimension",
+        "$value": "18px",
+        "$description": "Extra large spacing - substantial padding, major section gaps, card spacing"
+      },
+      "175": {
+        "$type": "dimension",
+        "$value": "21px",
+        "$description": "Mega spacing - large component padding, significant section separation"
+      },
+      "200": {
+        "$type": "dimension",
+        "$value": "24px",
+        "$description": "Large spacing - generous padding, section spacing"
+      },
+      "225": {
+        "$type": "dimension",
+        "$value": "27px",
+        "$description": "Large spacing - comfortable padding for larger components"
+      },
+      "250": {
+        "$type": "dimension",
+        "$value": "30px",
+        "$description": "Large spacing - generous padding, section spacing"
+      },
+      "275": {
+        "$type": "dimension",
+        "$value": "33px",
+        "$description": "Giga spacing - generous padding, section spacing"
+      },
+      "300": {
+        "$type": "dimension",
+        "$value": "36px",
+        "$description": "Tera spacing - enormous padding, hero section spacing, major page divisions"
+      },
+      "325": {
+        "$type": "dimension",
+        "$value": "39px",
+        "$description": "Scale step 325"
+      },
+      "350": {
+        "$type": "dimension",
+        "$value": "42px",
+        "$description": "Scale step 350"
+      },
+      "375": {
+        "$type": "dimension",
+        "$value": "45px",
+        "$description": "Scale step 375"
+      },
+      "400": {
+        "$type": "dimension",
+        "$value": "48px",
+        "$description": "Very large padding, major layout sections, container spacing"
+      },
+      "425": {
+        "$type": "dimension",
+        "$value": "51px",
+        "$description": "Scale step 425"
+      },
+      "450": {
+        "$type": "dimension",
+        "$value": "54px",
+        "$description": "Scale step 450"
+      },
+      "475": {
+        "$type": "dimension",
+        "$value": "57px",
+        "$description": "Scale step 475"
+      },
+      "500": {
+        "$type": "dimension",
+        "$value": "60px",
+        "$description": "Extra large padding, major container spacing, hero sections"
+      },
+      "525": {
+        "$type": "dimension",
+        "$value": "63px",
+        "$description": "Scale step 525"
+      },
+      "550": {
+        "$type": "dimension",
+        "$value": "66px",
+        "$description": "Touch target size - minimum recommended for touch interactions (WCAG)"
+      },
+      "575": {
+        "$type": "dimension",
+        "$value": "69px",
+        "$description": "Scale step 575"
+      },
+      "600": {
+        "$type": "dimension",
+        "$value": "72px",
+        "$description": "Very large padding, major section spacing"
+      },
+      "625": {
+        "$type": "dimension",
+        "$value": "75px",
+        "$description": "Scale step 625"
+      },
+      "650": {
+        "$type": "dimension",
+        "$value": "78px",
+        "$description": "Scale step 650"
+      },
+      "675": {
+        "$type": "dimension",
+        "$value": "81px",
+        "$description": "Scale step 675"
+      },
+      "700": {
+        "$type": "dimension",
+        "$value": "84px",
+        "$description": "Massive padding, large container spacing, feature sections"
+      },
+      "725": {
+        "$type": "dimension",
+        "$value": "87px",
+        "$description": "Scale step 725"
+      },
+      "750": {
+        "$type": "dimension",
+        "$value": "90px",
+        "$description": "Scale step 750"
+      },
+      "775": {
+        "$type": "dimension",
+        "$value": "93px",
+        "$description": "Scale step 775"
+      },
+      "800": {
+        "$type": "dimension",
+        "$value": "96px",
+        "$description": "Huge padding, major layout sections, page-level spacing"
+      },
+      "$description": {
+        "$type": "other",
+        "$value": "Primitive dimension scale. Use semantic tokens for human-readable contexts."
+      }
+    },
+    "semantic": {
+      "$description": {
+        "$type": "other",
+        "$value": "Human-readable dimension aliases. Use for documentation and foundation contexts."
+      },
+      "zero": {
+        "$type": "dimension",
+        "$value": "{dimension.scale.0}",
+        "$description": "Zero spacing."
+      },
+      "pico": {
+        "$type": "dimension",
+        "$value": "{dimension.scale.6}",
+        "$description": "Minimal spacing."
+      },
+      "nano": {
+        "$type": "dimension",
+        "$value": "{dimension.scale.12}",
+        "$description": "Nano spacing."
+      },
+      "micro": {
+        "$type": "dimension",
+        "$value": "{dimension.scale.25}",
+        "$description": "Micro spacing."
+      },
+      "extraSmall": {
+        "$type": "dimension",
+        "$value": "{dimension.scale.50}",
+        "$description": "Extra small spacing."
+      },
+      "small": {
+        "$type": "dimension",
+        "$value": "{dimension.scale.75}",
+        "$description": "Small spacing."
+      },
+      "medium": {
+        "$type": "dimension",
+        "$value": "{dimension.scale.100}",
+        "$description": "Medium spacing."
+      },
+      "large": {
+        "$type": "dimension",
+        "$value": "{dimension.scale.125}",
+        "$description": "Large spacing."
+      },
+      "extraLarge": {
+        "$type": "dimension",
+        "$value": "{dimension.scale.150}",
+        "$description": "Extra large spacing."
+      },
+      "mega": {
+        "$type": "dimension",
+        "$value": "{dimension.scale.175}",
+        "$description": "Mega spacing."
+      },
+      "giga": {
+        "$type": "dimension",
+        "$value": "{dimension.scale.275}",
+        "$description": "Giga spacing."
+      },
+      "tera": {
+        "$type": "dimension",
+        "$value": "{dimension.scale.450}",
+        "$description": "Tera spacing."
+      },
+      "peta": {
+        "$type": "dimension",
+        "$value": "{dimension.scale.725}",
+        "$description": "Peta spacing."
+      }
+    }
+  },
+  "_theme_typography": {
+    "fontSizes": {
+      "nano": {
+        "$type": "fontSizes",
+        "$value": 6
+      },
+      "micro": {
+        "$type": "fontSizes",
+        "$value": 7
+      },
+      "extraSmall": {
+        "$type": "fontSizes",
+        "$value": 9
+      },
+      "small": {
+        "$type": "fontSizes",
+        "$value": 10
+      },
+      "medium": {
+        "$type": "fontSizes",
+        "$value": 12
+      },
+      "large": {
+        "$type": "fontSizes",
+        "$value": 16
+      },
+      "extraLarge": {
+        "$type": "fontSizes",
+        "$value": 20
+      },
+      "mega": {
+        "$type": "fontSizes",
+        "$value": 24
+      },
+      "giga": {
+        "$type": "fontSizes",
+        "$value": 28
+      },
+      "tera": {
+        "$type": "fontSizes",
+        "$value": 32
+      },
+      "peta": {
+        "$type": "fontSizes",
+        "$value": 36
+      },
+      "exa": {
+        "$type": "fontSizes",
+        "$value": 44
+      },
+      "zetta": {
+        "$type": "fontSizes",
+        "$value": 52
+      }
+    },
+    "lineHeights": {
+      "tight": {
+        "nano": {
+          "$type": "lineHeights",
+          "$value": 8
+        },
+        "micro": {
+          "$type": "lineHeights",
+          "$value": 8
+        },
+        "extraSmall": {
+          "$type": "lineHeights",
+          "$value": 12
+        },
+        "small": {
+          "$type": "lineHeights",
+          "$value": 12
+        },
+        "medium": {
+          "$type": "lineHeights",
+          "$value": 12
+        },
+        "large": {
+          "$type": "lineHeights",
+          "$value": 16
+        },
+        "extraLarge": {
+          "$type": "lineHeights",
+          "$value": 20
+        },
+        "mega": {
+          "$type": "lineHeights",
+          "$value": 24
+        },
+        "giga": {
+          "$type": "lineHeights",
+          "$value": 28
+        },
+        "tera": {
+          "$type": "lineHeights",
+          "$value": 32
+        },
+        "peta": {
+          "$type": "lineHeights",
+          "$value": 36
+        },
+        "exa": {
+          "$type": "lineHeights",
+          "$value": 44
+        },
+        "zetta": {
+          "$type": "lineHeights",
+          "$value": 52
+        }
+      },
+      "close": {
+        "nano": {
+          "$type": "lineHeights",
+          "$value": 8
+        },
+        "micro": {
+          "$type": "lineHeights",
+          "$value": 12
+        },
+        "extraSmall": {
+          "$type": "lineHeights",
+          "$value": 12
+        },
+        "small": {
+          "$type": "lineHeights",
+          "$value": 12
+        },
+        "medium": {
+          "$type": "lineHeights",
+          "$value": 16
+        },
+        "large": {
+          "$type": "lineHeights",
+          "$value": 20
+        },
+        "extraLarge": {
+          "$type": "lineHeights",
+          "$value": 24
+        },
+        "mega": {
+          "$type": "lineHeights",
+          "$value": 32
+        },
+        "giga": {
+          "$type": "lineHeights",
+          "$value": 36
+        },
+        "tera": {
+          "$type": "lineHeights",
+          "$value": 40
+        },
+        "peta": {
+          "$type": "lineHeights",
+          "$value": 44
+        },
+        "exa": {
+          "$type": "lineHeights",
+          "$value": 56
+        },
+        "zetta": {
+          "$type": "lineHeights",
+          "$value": 64
+        }
+      },
+      "regular": {
+        "nano": {
+          "$type": "lineHeights",
+          "$value": 12
+        },
+        "micro": {
+          "$type": "lineHeights",
+          "$value": 12
+        },
+        "extraSmall": {
+          "$type": "lineHeights",
+          "$value": 16
+        },
+        "small": {
+          "$type": "lineHeights",
+          "$value": 16
+        },
+        "medium": {
+          "$type": "lineHeights",
+          "$value": 20
+        },
+        "large": {
+          "$type": "lineHeights",
+          "$value": 24
+        },
+        "extraLarge": {
+          "$type": "lineHeights",
+          "$value": 28
+        },
+        "mega": {
+          "$type": "lineHeights",
+          "$value": 36
+        },
+        "giga": {
+          "$type": "lineHeights",
+          "$value": 40
+        },
+        "tera": {
+          "$type": "lineHeights",
+          "$value": 48
+        },
+        "peta": {
+          "$type": "lineHeights",
+          "$value": 52
+        },
+        "exa": {
+          "$type": "lineHeights",
+          "$value": 64
+        },
+        "zetta": {
+          "$type": "lineHeights",
+          "$value": 76
+        }
+      },
+      "wild": {
+        "nano": {
+          "$type": "lineHeights",
+          "$value": 12
+        },
+        "micro": {
+          "$type": "lineHeights",
+          "$value": 16
+        },
+        "extraSmall": {
+          "$type": "lineHeights",
+          "$value": 20
+        },
+        "small": {
+          "$type": "lineHeights",
+          "$value": 20
+        },
+        "medium": {
+          "$type": "lineHeights",
+          "$value": 24
+        },
+        "large": {
+          "$type": "lineHeights",
+          "$value": 32
+        },
+        "extraLarge": {
+          "$type": "lineHeights",
+          "$value": 36
+        },
+        "mega": {
+          "$type": "lineHeights",
+          "$value": 44
+        },
+        "giga": {
+          "$type": "lineHeights",
+          "$value": 52
+        },
+        "tera": {
+          "$type": "lineHeights",
+          "$value": 60
+        },
+        "peta": {
+          "$type": "lineHeights",
+          "$value": 68
+        },
+        "exa": {
+          "$type": "lineHeights",
+          "$value": 80
+        },
+        "zetta": {
+          "$type": "lineHeights",
+          "$value": 96
+        }
+      }
+    },
+    "letterSpacings": {
+      "tight": {
+        "$type": "letterSpacing",
+        "$value": -0.72
+      },
+      "regular": {
+        "$type": "letterSpacing",
+        "$value": 0
+      },
+      "wild": {
+        "$type": "letterSpacing",
+        "$value": 0.8
+      }
+    }
+  }
+}

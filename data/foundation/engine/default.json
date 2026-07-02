@@ -1,0 +1,752 @@
+{
+  "foundation": {
+    "bg": {
+      "primary": {
+        "$type": "color",
+        "$value": "{semantic.color.brand.ambient.contrast.base.positive.background}",
+        "$description": "Primary background. Use for main page/section backgrounds and hero areas."
+      },
+      "secondary": {
+        "$type": "color",
+        "$value": "{semantic.color.brand.ambient.neutral.lowest.background}"
+      },
+      "disabled": {
+        "$type": "color",
+        "$value": "{semantic.color.interface.function.disabled.normal.background}",
+        "$description": "Disabled background. Use for disabled controls and states."
+      },
+      "brand": {
+        "lowest": {
+          "$type": "color",
+          "$value": "{semantic.color.brand.branding.first.lowest.background}"
+        },
+        "low": {
+          "$type": "color",
+          "$value": "{semantic.color.brand.branding.first.low.background}"
+        },
+        "default": {
+          "$type": "color",
+          "$value": "{semantic.color.brand.branding.first.default.background}"
+        },
+        "high": {
+          "$type": "color",
+          "$value": "{semantic.color.brand.branding.first.high.background}"
+        },
+        "highest": {
+          "$type": "color",
+          "$value": "{semantic.color.brand.branding.first.highest.background}"
+        }
+      },
+      "neutral": {
+        "lowest": {
+          "$type": "color",
+          "$value": "{semantic.color.brand.ambient.neutral.lowest.background}"
+        },
+        "lower": {
+          "$type": "color",
+          "$value": "{semantic.color.brand.ambient.neutral.lower.background}"
+        },
+        "low": {
+          "$type": "color",
+          "$value": "{semantic.color.brand.ambient.neutral.low.background}"
+        },
+        "mid": {
+          "$type": "color",
+          "$value": "{semantic.color.brand.ambient.neutral.mid.background}"
+        },
+        "high": {
+          "$type": "color",
+          "$value": "{semantic.color.brand.ambient.neutral.high.background}"
+        },
+        "higher": {
+          "$type": "color",
+          "$value": "{semantic.color.brand.ambient.neutral.higher.background}"
+        },
+        "highest": {
+          "$type": "color",
+          "$value": "{semantic.color.brand.ambient.neutral.highest.background}"
+        }
+      },
+      "feedback": {
+        "info": {
+          "default": {
+            "$type": "color",
+            "$value": "{semantic.color.interface.feedback.info.default.normal.background}"
+          },
+          "secondary": {
+            "$type": "color",
+            "$value": "{semantic.color.interface.feedback.info.secondary.normal.background}",
+            "$description": "Info feedback secondary."
+          }
+        },
+        "success": {
+          "default": {
+            "$type": "color",
+            "$value": "{semantic.color.interface.feedback.success.default.normal.background}"
+          },
+          "secondary": {
+            "$type": "color",
+            "$value": "{semantic.color.interface.feedback.success.secondary.normal.background}",
+            "$description": "Success feedback secondary."
+          }
+        },
+        "warning": {
+          "default": {
+            "$type": "color",
+            "$value": "{semantic.color.interface.feedback.warning.default.normal.background}"
+          },
+          "secondary": {
+            "$type": "color",
+            "$value": "{semantic.color.interface.feedback.warning.secondary.normal.background}",
+            "$description": "Warning feedback secondary."
+          }
+        },
+        "danger": {
+          "default": {
+            "$type": "color",
+            "$value": "{semantic.color.interface.feedback.danger.default.normal.background}"
+          },
+          "secondary": {
+            "$type": "color",
+            "$value": "{semantic.color.interface.feedback.danger.secondary.normal.background}",
+            "$description": "Danger feedback secondary."
+          }
+        }
+      },
+      "product": {
+        "promo": {
+          "default": {
+            "$type": "color",
+            "$value": "{semantic.color.product.promo.default.default.background}"
+          },
+          "secondary": {
+            "$type": "color",
+            "$value": "{semantic.color.product.promo.secondary.default.background}"
+          }
+        },
+        "cashback": {
+          "default": {
+            "$type": "color",
+            "$value": "{semantic.color.product.cashback.default.default.background}"
+          },
+          "secondary": {
+            "$type": "color",
+            "$value": "{semantic.color.product.cashback.secondary.default.background}"
+          }
+        },
+        "premium": {
+          "default": {
+            "$type": "color",
+            "$value": "{semantic.color.product.premium.default.default.background}"
+          },
+          "secondary": {
+            "$type": "color",
+            "$value": "{semantic.color.product.premium.secondary.default.background}"
+          }
+        }
+      }
+    },
+    "border": {
+      "primary": {
+        "$type": "color",
+        "$value": "{semantic.color.brand.ambient.contrast.base.positive.border}",
+        "$description": "Primary border. Use for main dividers and outlines."
+      },
+      "secondary": {
+        "$type": "color",
+        "$value": "{semantic.color.brand.ambient.grayscale.lower.border}"
+      },
+      "tertiary": {
+        "$type": "color",
+        "$value": "{semantic.color.brand.ambient.grayscale.mid.border}"
+      },
+      "disabled": {
+        "$type": "color",
+        "$value": "{semantic.color.interface.function.disabled.normal.border}",
+        "$description": "Disabled border."
+      },
+      "brand": {
+        "lowest": {
+          "$type": "color",
+          "$value": "{semantic.color.brand.branding.first.lowest.border}"
+        },
+        "low": {
+          "$type": "color",
+          "$value": "{semantic.color.brand.branding.first.low.border}"
+        },
+        "default": {
+          "$type": "color",
+          "$value": "{semantic.color.brand.branding.first.default.border}"
+        },
+        "high": {
+          "$type": "color",
+          "$value": "{semantic.color.brand.branding.first.high.border}"
+        },
+        "highest": {
+          "$type": "color",
+          "$value": "{semantic.color.brand.branding.first.highest.border}"
+        }
+      },
+      "neutral": {
+        "lowest": {
+          "$type": "color",
+          "$value": "{semantic.color.brand.ambient.neutral.lowest.border}"
+        },
+        "lower": {
+          "$type": "color",
+          "$value": "{semantic.color.brand.ambient.neutral.lower.border}"
+        },
+        "low": {
+          "$type": "color",
+          "$value": "{semantic.color.brand.ambient.neutral.low.border}"
+        },
+        "mid": {
+          "$type": "color",
+          "$value": "{semantic.color.brand.ambient.neutral.mid.border}"
+        },
+        "high": {
+          "$type": "color",
+          "$value": "{semantic.color.brand.ambient.neutral.high.border}"
+        },
+        "higher": {
+          "$type": "color",
+          "$value": "{semantic.color.brand.ambient.neutral.higher.border}"
+        },
+        "highest": {
+          "$type": "color",
+          "$value": "{semantic.color.brand.ambient.neutral.highest.border}"
+        }
+      },
+      "feedback": {
+        "info": {
+          "default": {
+            "$type": "color",
+            "$value": "{semantic.color.interface.feedback.info.default.normal.border}"
+          },
+          "secondary": {
+            "$type": "color",
+            "$value": "{semantic.color.interface.feedback.info.secondary.normal.border}"
+          }
+        },
+        "success": {
+          "default": {
+            "$type": "color",
+            "$value": "{semantic.color.interface.feedback.success.default.normal.border}"
+          },
+          "secondary": {
+            "$type": "color",
+            "$value": "{semantic.color.interface.feedback.success.secondary.normal.border}"
+          }
+        },
+        "warning": {
+          "default": {
+            "$type": "color",
+            "$value": "{semantic.color.interface.feedback.warning.default.normal.border}"
+          },
+          "secondary": {
+            "$type": "color",
+            "$value": "{semantic.color.interface.feedback.warning.secondary.normal.border}"
+          }
+        },
+        "danger": {
+          "default": {
+            "$type": "color",
+            "$value": "{semantic.color.interface.feedback.danger.default.normal.border}"
+          },
+          "secondary": {
+            "$type": "color",
+            "$value": "{semantic.color.interface.feedback.danger.secondary.normal.border}"
+          }
+        }
+      },
+      "product": {
+        "promo": {
+          "default": {
+            "$type": "color",
+            "$value": "{semantic.color.product.promo.default.default.border}"
+          },
+          "secondary": {
+            "$type": "color",
+            "$value": "{semantic.color.product.promo.secondary.default.border}"
+          }
+        },
+        "cashback": {
+          "default": {
+            "$type": "color",
+            "$value": "{semantic.color.product.cashback.default.default.border}"
+          },
+          "secondary": {
+            "$type": "color",
+            "$value": "{semantic.color.product.cashback.secondary.default.border}"
+          }
+        },
+        "premium": {
+          "default": {
+            "$type": "color",
+            "$value": "{semantic.color.product.premium.default.default.border}"
+          },
+          "secondary": {
+            "$type": "color",
+            "$value": "{semantic.color.product.premium.secondary.default.border}"
+          }
+        }
+      },
+      "width": {
+        "none": {
+          "$type": "number",
+          "$value": "{semantic.border.width.none}"
+        },
+        "small": {
+          "$type": "number",
+          "$value": "{semantic.border.width.small}"
+        },
+        "medium": {
+          "$type": "number",
+          "$value": "{semantic.border.width.medium}"
+        },
+        "large": {
+          "$type": "number",
+          "$value": "{semantic.border.width.large}"
+        },
+        "extraLarge": {
+          "$type": "number",
+          "$value": "{semantic.border.width.extraLarge}"
+        }
+      },
+      "radii": {
+        "none": {
+          "$type": "number",
+          "$value": "{semantic.border.radii.straight}"
+        },
+        "micro": {
+          "$type": "number",
+          "$value": "{semantic.border.radii.micro}"
+        },
+        "extraSmall": {
+          "$type": "number",
+          "$value": "{semantic.border.radii.extraSmall}"
+        },
+        "small": {
+          "$type": "number",
+          "$value": "{semantic.border.radii.small}"
+        },
+        "medium": {
+          "$type": "number",
+          "$value": "{semantic.border.radii.medium}"
+        },
+        "large": {
+          "$type": "number",
+          "$value": "{semantic.border.radii.large}"
+        },
+        "extraLarge": {
+          "$type": "number",
+          "$value": "{semantic.border.radii.extraLarge}"
+        },
+        "circular": {
+          "$type": "number",
+          "$value": "{semantic.border.radii.circular}"
+        },
+        "mega": {
+          "$type": "number",
+          "$value": "{semantic.border.radii.mega}"
+        }
+      }
+    },
+    "txt": {
+      "title": {
+        "$type": "color",
+        "$value": "{semantic.color.text.title}",
+        "$description": "Title text. Use for headings."
+      },
+      "body": {
+        "$type": "color",
+        "$value": "{semantic.color.text.body}",
+        "$description": "Body text. Use for paragraphs and main content."
+      },
+      "highlight": {
+        "$type": "color",
+        "$value": "{semantic.color.text.highlight}",
+        "$description": "Highlight text. Use for emphasis."
+      },
+      "muted": {
+        "$type": "color",
+        "$value": "{semantic.color.text.muted}",
+        "$description": "Muted text. Use for secondary content."
+      },
+      "label": {
+        "$type": "color",
+        "$value": "{semantic.color.text.label}",
+        "$description": "Label text. Use for form labels and captions."
+      },
+      "disabled": {
+        "$type": "color",
+        "$value": "{semantic.color.interface.function.disabled.normal.txtOn}",
+        "$description": "Disabled text."
+      },
+      "info": {
+        "$type": "color",
+        "$value": "{semantic.color.text.info_default}",
+        "$description": "Info feedback text."
+      },
+      "success": {
+        "$type": "color",
+        "$value": "{semantic.color.text.success_default}",
+        "$description": "Success feedback text."
+      },
+      "warning": {
+        "$type": "color",
+        "$value": "{semantic.color.text.warning_default}",
+        "$description": "Warning feedback text."
+      },
+      "danger": {
+        "$type": "color",
+        "$value": "{semantic.color.text.danger_default}",
+        "$description": "Danger feedback text."
+      },
+      "on": {
+        "brand": {
+          "lowest": {
+            "$type": "color",
+            "$value": "{semantic.color.brand.branding.first.lowest.txtOn}"
+          },
+          "low": {
+            "$type": "color",
+            "$value": "{semantic.color.brand.branding.first.low.txtOn}"
+          },
+          "default": {
+            "$type": "color",
+            "$value": "{semantic.color.brand.branding.first.default.txtOn}"
+          },
+          "high": {
+            "$type": "color",
+            "$value": "{semantic.color.brand.branding.first.high.txtOn}"
+          },
+          "highest": {
+            "$type": "color",
+            "$value": "{semantic.color.brand.branding.first.highest.txtOn}"
+          }
+        },
+        "neutral": {
+          "lowest": {
+            "$type": "color",
+            "$value": "{semantic.color.brand.ambient.neutral.lowest.txtOn}"
+          },
+          "lower": {
+            "$type": "color",
+            "$value": "{semantic.color.brand.ambient.neutral.lower.txtOn}"
+          },
+          "low": {
+            "$type": "color",
+            "$value": "{semantic.color.brand.ambient.neutral.low.txtOn}"
+          },
+          "mid": {
+            "$type": "color",
+            "$value": "{semantic.color.brand.ambient.neutral.mid.txtOn}"
+          },
+          "high": {
+            "$type": "color",
+            "$value": "{semantic.color.brand.ambient.neutral.high.txtOn}"
+          },
+          "higher": {
+            "$type": "color",
+            "$value": "{semantic.color.brand.ambient.neutral.higher.txtOn}"
+          },
+          "highest": {
+            "$type": "color",
+            "$value": "{semantic.color.brand.ambient.neutral.highest.txtOn}"
+          }
+        },
+        "feedback": {
+          "info": {
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.color.interface.feedback.info.default.normal.txtOn}"
+            },
+            "secondary": {
+              "$type": "color",
+              "$value": "{semantic.color.interface.feedback.info.secondary.normal.txtOn}"
+            }
+          },
+          "success": {
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.color.interface.feedback.success.default.normal.txtOn}"
+            },
+            "secondary": {
+              "$type": "color",
+              "$value": "{semantic.color.interface.feedback.success.secondary.normal.txtOn}"
+            }
+          },
+          "warning": {
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.color.interface.feedback.warning.default.normal.txtOn}"
+            },
+            "secondary": {
+              "$type": "color",
+              "$value": "{semantic.color.interface.feedback.warning.secondary.normal.txtOn}"
+            }
+          },
+          "danger": {
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.color.interface.feedback.danger.default.normal.txtOn}"
+            },
+            "secondary": {
+              "$type": "color",
+              "$value": "{semantic.color.interface.feedback.danger.secondary.normal.txtOn}"
+            }
+          }
+        },
+        "product": {
+          "promo": {
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.color.product.promo.default.default.txtOn}"
+            },
+            "secondary": {
+              "$type": "color",
+              "$value": "{semantic.color.product.promo.secondary.default.txtOn}"
+            }
+          },
+          "cashback": {
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.color.product.cashback.default.default.txtOn}"
+            },
+            "secondary": {
+              "$type": "color",
+              "$value": "{semantic.color.product.cashback.secondary.default.txtOn}"
+            }
+          },
+          "premium": {
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.color.product.premium.default.default.txtOn}"
+            },
+            "secondary": {
+              "$type": "color",
+              "$value": "{semantic.color.product.premium.secondary.default.txtOn}"
+            }
+          }
+        }
+      }
+    },
+    "gradient": {
+      "first": {
+        "$type": "color",
+        "$value": "{semantic.color.gradient.composites.first}"
+      },
+      "second": {
+        "$type": "color",
+        "$value": "{semantic.color.gradient.composites.second}"
+      },
+      "third": {
+        "$type": "color",
+        "$value": "{semantic.color.gradient.composites.third}"
+      }
+    },
+    "opacity": {
+      "color": {
+        "grayscale": {
+          "superTransparent": {
+            "$type": "color",
+            "$value": "{semantic.opacity.color.grayscale.superTransparent}",
+            "$description": "Opacity (grayscale). Use for overlays and scrims."
+          },
+          "semiTranslucid": {
+            "$type": "color",
+            "$value": "{semantic.opacity.color.grayscale.semiTranslucid}",
+            "$description": "Opacity (grayscale). Use for overlays and scrims."
+          },
+          "translucid": {
+            "$type": "color",
+            "$value": "{semantic.opacity.color.grayscale.translucid}",
+            "$description": "Opacity (grayscale). Use for overlays and scrims."
+          },
+          "superTranslucid": {
+            "$type": "color",
+            "$value": "{semantic.opacity.color.grayscale.superTranslucid}",
+            "$description": "Opacity (grayscale). Use for overlays and scrims."
+          },
+          "semiOpaque": {
+            "$type": "color",
+            "$value": "{semantic.opacity.color.grayscale.semiOpaque}",
+            "$description": "Opacity (grayscale). Use for overlays and scrims."
+          }
+        },
+        "light": {
+          "superTransparent": {
+            "$type": "color",
+            "$value": "{semantic.opacity.color.light.superTransparent}",
+            "$description": "Opacity (light). Use for overlays and scrims."
+          },
+          "semiTranslucid": {
+            "$type": "color",
+            "$value": "{semantic.opacity.color.light.semiTranslucid}",
+            "$description": "Opacity (light). Use for overlays and scrims."
+          },
+          "translucid": {
+            "$type": "color",
+            "$value": "{semantic.opacity.color.light.translucid}",
+            "$description": "Opacity (light). Use for overlays and scrims."
+          },
+          "superTranslucid": {
+            "$type": "color",
+            "$value": "{semantic.opacity.color.light.superTranslucid}",
+            "$description": "Opacity (light). Use for overlays and scrims."
+          },
+          "semiOpaque": {
+            "$type": "color",
+            "$value": "{semantic.opacity.color.light.semiOpaque}",
+            "$description": "Opacity (light). Use for overlays and scrims."
+          }
+        }
+      }
+    },
+    "sizing": {
+      "zero": {
+        "$type": "sizing",
+        "$value": "{semantic.dimension.sizing.zero}",
+        "$description": "Sizing dimension. Use for width, height and layout scale."
+      },
+      "pico": {
+        "$type": "sizing",
+        "$value": "{semantic.dimension.sizing.pico}",
+        "$description": "Sizing dimension. Use for width, height and layout scale."
+      },
+      "nano": {
+        "$type": "sizing",
+        "$value": "{semantic.dimension.sizing.nano}",
+        "$description": "Sizing dimension. Use for width, height and layout scale."
+      },
+      "micro": {
+        "$type": "sizing",
+        "$value": "{semantic.dimension.sizing.micro}",
+        "$description": "Sizing dimension. Use for width, height and layout scale."
+      },
+      "extraSmall": {
+        "$type": "sizing",
+        "$value": "{semantic.dimension.sizing.extraSmall}",
+        "$description": "Sizing dimension. Use for width, height and layout scale."
+      },
+      "small": {
+        "$type": "sizing",
+        "$value": "{semantic.dimension.sizing.small}",
+        "$description": "Sizing dimension. Use for width, height and layout scale."
+      },
+      "medium": {
+        "$type": "sizing",
+        "$value": "{semantic.dimension.sizing.medium}",
+        "$description": "Sizing dimension. Use for width, height and layout scale."
+      },
+      "large": {
+        "$type": "sizing",
+        "$value": "{semantic.dimension.sizing.large}",
+        "$description": "Sizing dimension. Use for width, height and layout scale."
+      },
+      "extraLarge": {
+        "$type": "sizing",
+        "$value": "{semantic.dimension.sizing.extraLarge}",
+        "$description": "Sizing dimension. Use for width, height and layout scale."
+      },
+      "mega": {
+        "$type": "sizing",
+        "$value": "{semantic.dimension.sizing.mega}",
+        "$description": "Sizing dimension. Use for width, height and layout scale."
+      },
+      "giga": {
+        "$type": "sizing",
+        "$value": "{semantic.dimension.sizing.giga}",
+        "$description": "Sizing dimension. Use for width, height and layout scale."
+      },
+      "tera": {
+        "$type": "sizing",
+        "$value": "{semantic.dimension.sizing.tera}",
+        "$description": "Sizing dimension. Use for width, height and layout scale."
+      },
+      "peta": {
+        "$type": "sizing",
+        "$value": "{semantic.dimension.sizing.peta}",
+        "$description": "Sizing dimension. Use for width, height and layout scale."
+      }
+    },
+    "spacing": {
+      "zero": {
+        "$type": "spacing",
+        "$value": "{semantic.dimension.spacing.zero}",
+        "$description": "Spacing dimension. Use for margin and padding."
+      },
+      "micro": {
+        "$type": "spacing",
+        "$value": "{semantic.dimension.spacing.micro}",
+        "$description": "Spacing dimension. Use for margin and padding."
+      },
+      "extraSmall": {
+        "$type": "spacing",
+        "$value": "{semantic.dimension.spacing.extraSmall}",
+        "$description": "Spacing dimension. Use for margin and padding."
+      },
+      "small": {
+        "$type": "spacing",
+        "$value": "{semantic.dimension.spacing.small}",
+        "$description": "Spacing dimension. Use for margin and padding."
+      },
+      "medium": {
+        "$type": "spacing",
+        "$value": "{semantic.dimension.spacing.medium}",
+        "$description": "Spacing dimension. Use for margin and padding."
+      },
+      "large": {
+        "$type": "spacing",
+        "$value": "{semantic.dimension.spacing.large}",
+        "$description": "Spacing dimension. Use for margin and padding."
+      },
+      "extraLarge": {
+        "$type": "spacing",
+        "$value": "{semantic.dimension.spacing.extraLarge}",
+        "$description": "Spacing dimension. Use for margin and padding."
+      },
+      "mega": {
+        "$type": "spacing",
+        "$value": "{semantic.dimension.spacing.mega}",
+        "$description": "Spacing dimension. Use for margin and padding."
+      },
+      "giga": {
+        "$type": "spacing",
+        "$value": "{semantic.dimension.spacing.giga}",
+        "$description": "Spacing dimension. Use for margin and padding."
+      },
+      "tera": {
+        "$type": "spacing",
+        "$value": "{semantic.dimension.spacing.tera}",
+        "$description": "Spacing dimension. Use for margin and padding."
+      },
+      "peta": {
+        "$type": "spacing",
+        "$value": "{semantic.dimension.spacing.peta}",
+        "$description": "Spacing dimension. Use for margin and padding."
+      }
+    },
+    "typography": {
+      "fontFamilies": {
+        "main": {
+          "$type": "fontFamilies",
+          "$value": "{semantic.typography.fontFamilies.main}"
+        },
+        "content": {
+          "$type": "fontFamilies",
+          "$value": "{semantic.typography.fontFamilies.content}"
+        },
+        "display": {
+          "$type": "fontFamilies",
+          "$value": "{semantic.typography.fontFamilies.display}"
+        },
+        "code": {
+          "$type": "fontFamilies",
+          "$value": "{semantic.typography.fontFamilies.code}"
+        }
+      }
+    }
+  }
+}
