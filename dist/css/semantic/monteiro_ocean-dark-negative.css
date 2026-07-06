@@ -103,9 +103,9 @@
   --semantic-color-brand-ambient-grayscale-highest-background: #222222;
   --semantic-color-brand-ambient-grayscale-highest-txtOn: #f7f7f7;
   --semantic-color-brand-ambient-grayscale-highest-border: #111111;
-  --semantic-color-interface-function-primary-normal-background: #0099cc;
-  --semantic-color-interface-function-primary-normal-txtOn: #00264b;
-  --semantic-color-interface-function-primary-normal-border: #0071a2;
+  --semantic-color-interface-function-primary-normal-background: #0071a2;
+  --semantic-color-interface-function-primary-normal-txtOn: #ffffff;
+  --semantic-color-interface-function-primary-normal-border: #005a82;
   --semantic-color-interface-function-primary-action-background: #00375d;
   --semantic-color-interface-function-primary-action-txtOn: #50afdb;
   --semantic-color-interface-function-primary-action-border: #44bdf2;

@@ -196,9 +196,9 @@ export default {
         "function": {
           "primary": {
             "normal": {
-              "background": "#0099cc",
-              "txtOn": "#000013",
-              "border": "#0071a2"
+              "background": "#004a62",
+              "txtOn": "#00bfff",
+              "border": "#003b4e"
             },
             "action": {
               "background": "#0071a2",
