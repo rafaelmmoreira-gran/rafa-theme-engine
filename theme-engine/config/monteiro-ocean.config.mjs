@@ -98,5 +98,23 @@ export default {
         black: { normal: 'Black', italic: 'Black Italic', numeric: 700 }
       }
     }
+  },
+  overrides: {
+    interaction: {
+      function: {
+        items: {
+          primary: {
+            states: {
+              normal: {
+                solid: {
+                  light: { background: '#004A62', txtOn: '#00BFFF' },
+                  dark:  { background: '#0071A2', txtOn: '#FFFFFF' }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
   }
 };

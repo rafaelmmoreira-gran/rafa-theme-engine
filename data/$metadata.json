@@ -13,18 +13,13 @@
     "brand/aplica_blue_sky/_typography",
     "brand/aplica_blue_sky/_borders",
     "brand/aplica_blue_sky/_gradients",
-    "brand/aplica_blue_sky/$meta",
     "brand/monteiro_ocean/_grayscale",
     "brand/monteiro_ocean/_brand",
     "brand/monteiro_ocean/_typography",
     "brand/monteiro_ocean/_borders",
     "brand/monteiro_ocean/_gradients",
-    "brand/monteiro_ocean/$meta",
     "dimension/minor",
     "dimension/normal",
-    "dimension/major",
-    "foundation/aplica_blue_sky/design-md",
-    "foundation/engine/.validation/engine.validation",
-    "foundation/monteiro_ocean/design-md"
+    "dimension/major"
   ]
 }

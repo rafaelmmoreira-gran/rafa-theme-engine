@@ -717,7 +717,7 @@
                 "surface": {
                   "normal": {
                     "$type": "color",
-                    "$value": "#0099cc"
+                    "$value": "#004a62"
                   },
                   "action": {
                     "$type": "color",
@@ -735,7 +735,7 @@
                 "txtOn": {
                   "normal": {
                     "$type": "color",
-                    "$value": "#000013"
+                    "$value": "#00bfff"
                   },
                   "action": {
                     "$type": "color",
@@ -753,7 +753,7 @@
                 "border": {
                   "normal": {
                     "$type": "color",
-                    "$value": "#0071a2"
+                    "$value": "#003b4e"
                   },
                   "action": {
                     "$type": "color",
@@ -1353,7 +1353,7 @@
                 "surface": {
                   "normal": {
                     "$type": "color",
-                    "$value": "#0099cc"
+                    "$value": "#004a62"
                   },
                   "action": {
                     "$type": "color",
@@ -1371,7 +1371,7 @@
                 "txtOn": {
                   "normal": {
                     "$type": "color",
-                    "$value": "#000013"
+                    "$value": "#00bfff"
                   },
                   "action": {
                     "$type": "color",
@@ -1389,7 +1389,7 @@
                 "border": {
                   "normal": {
                     "$type": "color",
-                    "$value": "#50afdb"
+                    "$value": "#003b4e"
                   },
                   "action": {
                     "$type": "color",
@@ -3959,7 +3959,7 @@
                 "surface": {
                   "normal": {
                     "$type": "color",
-                    "$value": "#0099cc"
+                    "$value": "#0071a2"
                   },
                   "action": {
                     "$type": "color",
@@ -3977,7 +3977,7 @@
                 "txtOn": {
                   "normal": {
                     "$type": "color",
-                    "$value": "#00264b"
+                    "$value": "#ffffff"
                   },
                   "action": {
                     "$type": "color",
@@ -3995,7 +3995,7 @@
                 "border": {
                   "normal": {
                     "$type": "color",
-                    "$value": "#50afdb"
+                    "$value": "#005a82"
                   },
                   "action": {
                     "$type": "color",
@@ -4595,7 +4595,7 @@
                 "surface": {
                   "normal": {
                     "$type": "color",
-                    "$value": "#0099cc"
+                    "$value": "#0071a2"
                   },
                   "action": {
                     "$type": "color",
@@ -4613,7 +4613,7 @@
                 "txtOn": {
                   "normal": {
                     "$type": "color",
-                    "$value": "#00264b"
+                    "$value": "#ffffff"
                   },
                   "action": {
                     "$type": "color",
@@ -4631,7 +4631,7 @@
                 "border": {
                   "normal": {
                     "$type": "color",
-                    "$value": "#0071a2"
+                    "$value": "#005a82"
                   },
                   "action": {
                     "$type": "color",
